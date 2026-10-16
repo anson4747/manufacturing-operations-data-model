@@ -1,0 +1,218 @@
+// =====================================================================
+// MANUFACTURING OPERATIONS MODEL  :  CORE MEASURE PACK
+// Paste into DAX query view, run, then click "Update model: Add new
+// measures" above the DEFINE line. All measures land in '_Measures'.
+// =====================================================================
+DEFINE
+
+    // ------------------------------------------------------------ Sales
+    MEASURE '_Measures'[Net Revenue] =
+        SUM ( fact_sales_line[net_revenue] )
+
+    MEASURE '_Measures'[Gross Margin] =
+        SUM ( fact_sales_line[gross_margin] )
+
+    MEASURE '_Measures'[Gross Margin %] =
+        DIVIDE ( [Gross Margin], [Net Revenue] )
+
+    MEASURE '_Measures'[Orders] =
+        CALCULATE (
+            COUNTROWS ( fact_sales_order ),
+            fact_sales_order[order_status] <> "Cancelled"
+        )
+
+    MEASURE '_Measures'[Avg Order Value] =
+        DIVIDE ( [Net Revenue], [Orders] )
+
+    MEASURE '_Measures'[m2 Sold] =
+        CALCULATE ( SUM ( fact_sales_line[qty] ), dim_product[category] = "Panel" )
+
+    MEASURE '_Measures'[Avg Price per m2] =
+        DIVIDE (
+            CALCULATE ( [Net Revenue], dim_product[category] = "Panel" ),
+            [m2 Sold]
+        )
+
+    // ------------------------------------------------------------ Time intelligence (Australian FY)
+    // Written against fy_number instead of TOTALYTD so it does not depend
+    // on a locale specific year end string.
+    MEASURE '_Measures'[Net Revenue FYTD] =
+        VAR _maxDate = MAX ( dim_date[date] )
+        VAR _fy = MAX ( dim_date[fy_number] )
+        RETURN
+            CALCULATE (
+                [Net Revenue],
+                FILTER ( ALL ( dim_date ), dim_date[fy_number] = _fy && dim_date[date] <= _maxDate )
+            )
+
+    MEASURE '_Measures'[Net Revenue PY] =
+        CALCULATE ( [Net Revenue], SAMEPERIODLASTYEAR ( dim_date[date] ) )
+
+    MEASURE '_Measures'[Revenue Growth %] =
+        DIVIDE ( [Net Revenue] - [Net Revenue PY], [Net Revenue PY] )
+
+    MEASURE '_Measures'[Net Revenue PQ] =
+        CALCULATE ( [Net Revenue], DATEADD ( dim_date[date], -1, QUARTER ) )
+
+    MEASURE '_Measures'[Revenue QoQ %] =
+        DIVIDE ( [Net Revenue] - [Net Revenue PQ], [Net Revenue PQ] )
+
+    // ------------------------------------------------------------ Delivery
+    MEASURE '_Measures'[Delivery KPI Orders] =
+        CALCULATE (
+            COUNTROWS ( fact_sales_order ),
+            fact_sales_order[is_valid_for_delivery_kpi] = TRUE ()
+        )
+
+    MEASURE '_Measures'[OTD (Promise) %] =
+        DIVIDE ( SUM ( fact_sales_order[on_time_promise] ), [Delivery KPI Orders] )
+
+    MEASURE '_Measures'[Request Met %] =
+        DIVIDE ( SUM ( fact_sales_order[request_met] ), [Delivery KPI Orders] )
+
+    MEASURE '_Measures'[OTD Definition Gap] =
+        [OTD (Promise) %] - [Request Met %]
+
+    // Same measure, sliced by the month the order was dispatched instead
+    // of ordered. dispatch_date is an inactive relationship to dim_date.
+    MEASURE '_Measures'[OTD (Promise) % by Dispatch Date] =
+        CALCULATE (
+            [OTD (Promise) %],
+            USERELATIONSHIP ( fact_sales_order[dispatch_date], dim_date[date] )
+        )
+
+    MEASURE '_Measures'[Avg Order to Dispatch Days] =
+        AVERAGE ( fact_sales_order[days_order_to_dispatch] )
+
+    MEASURE '_Measures'[Avg Days Late (Late Orders)] =
+        CALCULATE (
+            AVERAGE ( fact_sales_order[days_late_vs_promise] ),
+            fact_sales_order[days_late_vs_promise] > 0
+        )
+
+    // ------------------------------------------------------------ Freight
+    MEASURE '_Measures'[Freight Cost] =
+        CALCULATE (
+            SUM ( fact_sales_order[freight_cost] ),
+            fact_sales_order[order_status] <> "Cancelled"
+        )
+
+    MEASURE '_Measures'[Fuel Levy Recovered] =
+        CALCULATE (
+            SUM ( fact_sales_order[fuel_levy] ),
+            fact_sales_order[order_status] <> "Cancelled"
+        )
+
+    MEASURE '_Measures'[Freight % of Revenue] =
+        DIVIDE ( [Freight Cost], [Net Revenue] )
+
+    // ------------------------------------------------------------ Inventory (snapshot, never summed over time)
+    MEASURE '_Measures'[Stock on Hand] =
+        VAR _lastWeek = CALCULATE ( MAX ( fact_inventory_weekly[week_ending] ) )
+        RETURN
+            CALCULATE ( SUM ( fact_inventory_weekly[qty_on_hand] ), dim_date[date] = _lastWeek )
+
+    MEASURE '_Measures'[Avg Weekly Shipped (8 Wks)] =
+        VAR _lastWeek = CALCULATE ( MAX ( fact_inventory_weekly[week_ending] ) )
+        RETURN
+            DIVIDE (
+                CALCULATE (
+                    SUM ( fact_inventory_weekly[qty_shipped] ),
+                    DATESINPERIOD ( dim_date[date], _lastWeek, -56, DAY )
+                ),
+                8
+            )
+
+    MEASURE '_Measures'[Stock Cover (Weeks)] =
+        DIVIDE ( [Stock on Hand], [Avg Weekly Shipped (8 Wks)] )
+
+    // ------------------------------------------------------------ Production
+    MEASURE '_Measures'[m2 Produced] =
+        SUM ( fact_production[m2_produced] )
+
+    MEASURE '_Measures'[m2 Scrapped] =
+        SUM ( fact_production[m2_scrapped] )
+
+    MEASURE '_Measures'[Scrap Rate %] =
+        DIVIDE ( [m2 Scrapped], [m2 Produced] )
+
+    MEASURE '_Measures'[Downtime Days] =
+        CALCULATE (
+            DISTINCTCOUNT ( fact_production[production_date] ),
+            fact_production[downtime_reason] <> ""
+        )
+
+    // ------------------------------------------------------------ Purchasing
+    MEASURE '_Measures'[PO Value] =
+        SUM ( fact_purchase_order[po_value] )
+
+    MEASURE '_Measures'[Received POs] =
+        CALCULATE ( COUNTROWS ( fact_purchase_order ), fact_purchase_order[is_received] = TRUE () )
+
+    MEASURE '_Measures'[Supplier On Time %] =
+        DIVIDE (
+            CALCULATE ( COUNTROWS ( fact_purchase_order ), fact_purchase_order[is_on_time] = 1 ),
+            [Received POs]
+        )
+
+    MEASURE '_Measures'[Avg Quoted Lead Days] =
+        CALCULATE (
+            AVERAGE ( fact_purchase_order[quoted_lead_days] ),
+            fact_purchase_order[is_received] = TRUE ()
+        )
+
+    MEASURE '_Measures'[Avg Actual Lead Days] =
+        AVERAGE ( fact_purchase_order[actual_lead_days] )
+
+    MEASURE '_Measures'[Avg Supplier Days Late] =
+        CALCULATE (
+            AVERAGE ( fact_purchase_order[days_late] ),
+            fact_purchase_order[days_late] > 0
+        )
+
+    // ------------------------------------------------------------ Data quality
+    MEASURE '_Measures'[DQ Checks Run] =
+        COUNTROWS ( dq_results )
+
+    MEASURE '_Measures'[DQ Checks Passed] =
+        CALCULATE ( COUNTROWS ( dq_results ), dq_results[status] = "Pass" )
+
+    MEASURE '_Measures'[DQ Pass Rate %] =
+        DIVIDE ( [DQ Checks Passed], [DQ Checks Run] )
+
+    MEASURE '_Measures'[DQ Value at Risk] =
+        SUM ( dq_results[value_at_risk] )
+
+    MEASURE '_Measures'[Revenue in Price Exceptions] =
+        CALCULATE ( [Net Revenue], fact_sales_line[is_price_exception] = TRUE () )
+
+    MEASURE '_Measures'[Unassigned Revenue] =
+        CALCULATE ( [Net Revenue], dim_project[project_id] = "UNASSIGNED" )
+
+    MEASURE '_Measures'[Orders Recovered by Matching] =
+        CALCULATE (
+            COUNTROWS ( fact_sales_order ),
+            fact_sales_order[project_match_method] IN { "Normalised", "Alias rule" }
+        )
+
+    // Lines and orders are not related directly. TREATAS takes the list of
+    // recovered order ids and applies it as a filter on the lines table.
+    MEASURE '_Measures'[Revenue Recovered by Matching] =
+        VAR _orders =
+            CALCULATETABLE (
+                VALUES ( fact_sales_order[order_id] ),
+                fact_sales_order[project_match_method] IN { "Normalised", "Alias rule" }
+            )
+        RETURN
+            CALCULATE ( [Net Revenue], TREATAS ( _orders, fact_sales_line[order_id] ) )
+
+EVALUATE
+    ROW (
+        "Net Revenue", [Net Revenue],
+        "OTD Promise", [OTD (Promise) %],
+        "Request Met", [Request Met %],
+        "Unassigned Revenue", [Unassigned Revenue],
+        "Revenue Recovered", [Revenue Recovered by Matching],
+        "Scrap Rate", [Scrap Rate %],
+        "Supplier On Time", [Supplier On Time %]
+    )

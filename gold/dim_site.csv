@@ -1,0 +1,5 @@
+site_code,site_name,state,site_type,active_from,active_to,is_current
+VIC-BAY,Bayswater Manufacturing and Warehouse,VIC,Manufacturing,1998-01-01,,true
+NSW-WH,NSW Warehouse,NSW,Warehouse,2015-01-01,,true
+QLD-STA,Stapylton Warehouse,QLD,Warehouse,2025-05-12,,true
+QLD-OLD,Previous QLD Warehouse,QLD,Warehouse,2015-01-01,2025-05-11,false

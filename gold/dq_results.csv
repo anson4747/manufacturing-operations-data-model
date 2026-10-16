@@ -1,0 +1,16 @@
+check_id,check_name,layer,source_table,rows_checked,rows_failed,value_at_risk,severity,action_taken,pct_failed,status
+DQ01,Duplicate order rows in ERP export,Bronze to Silver,erp_sales_orders,3635,43,0.0,Medium,"Removed in silver, one row kept per order",1.18,Warn
+DQ02,Duplicate order line rows in ERP export,Bronze to Silver,erp_sales_order_lines,15847,192,0.0,Medium,"Removed in silver, one row kept per line",1.21,Warn
+DQ03,Project state entered in a non standard format,Silver,crm_projects,560,71,0.0,Low,Standardised through the state mapping table,12.68,Warn
+DQ04,Project state that cannot be mapped,Silver,crm_projects,560,0,0.0,High,Would block load and be raised with the CRM owner,0.0,Pass
+DQ05,Order not linked to a CRM project,Silver,erp_sales_orders,3592,113,1455340.4909999992,Medium,"Reported under Unassigned project, list sent to sales admin",3.15,Warn
+DQ06,Dispatched order with no dispatch date,Silver,erp_sales_orders,3479,17,0.0,High,"Excluded from delivery metrics, flagged to operations",0.49,Fail
+DQ07,Line price outside 50 to 200 percent of price list,Silver,erp_sales_order_lines,15655,67,959853.8907499997,High,"Kept and flagged, value at risk reported, finance to correct at source",0.43,Fail
+DQ08,Order line with no order header,Silver,erp_sales_order_lines,15655,0,0.0,High,Would be quarantined,0.0,Pass
+DQ09,Order line with unknown SKU,Silver,erp_sales_order_lines,15655,0,0.0,High,Would be quarantined,0.0,Pass
+DQ10,Order with unknown customer,Silver,erp_sales_orders,3592,0,0.0,High,Would be quarantined,0.0,Pass
+DQ11,Zero or negative quantity,Silver,erp_sales_order_lines,15655,0,0.0,Medium,Would be flagged,0.0,Pass
+DQ12,Promised date earlier than order date,Silver,erp_sales_orders,3592,0,0.0,Medium,Would be flagged,0.0,Pass
+DQ13,Purchase order received before it was raised,Silver,erp_purchase_orders,432,0,0.0,High,Would be flagged,0.0,Pass
+DQ14,Transactional source older than seven days at load,Freshness,"orders, production, inventory, purchasing",4,0,0.0,High,Report would show a stale data banner,0.0,Pass
+DQ15,On time measured two ways gives different answers,Definitions,erp_sales_orders,3462,777,0.0,Medium,Split into two locked metrics: On Time Delivery (Promise) and Request Met Rate,22.44,Warn

@@ -1,0 +1,37 @@
+// Five measures the report pages depend on.
+// Paste into DAX query view, Run, then click "Update model: Add new measures".
+DEFINE
+    MEASURE '_Measures'[DQ Checks Needing Action] =
+        CALCULATE ( COUNTROWS ( dq_results ), dq_results[status] = "Fail" )
+
+    MEASURE '_Measures'[DQ Checks Handled in Pipeline] =
+        CALCULATE ( COUNTROWS ( dq_results ), dq_results[status] = "Warn" )
+
+    MEASURE '_Measures'[DQ Status Colour] =
+        SWITCH (
+            SELECTEDVALUE ( dq_results[status] ),
+            "Pass", "#2E7D32",
+            "Warn", "#B7791F",
+            "Fail", "#C62828"
+        )
+
+    MEASURE '_Measures'[Order Count] =
+        COUNTROWS ( fact_sales_order )
+
+    MEASURE '_Measures'[Stock Cover Colour] =
+        VAR _cover = [Stock Cover (Weeks)]
+        RETURN
+            SWITCH (
+                TRUE (),
+                ISBLANK ( _cover ), BLANK (),
+                _cover < 2, "#F8D7DA",
+                _cover < 4, "#FFF3CD",
+                "#D4EDDA"
+            )
+
+EVALUATE
+    ROW (
+        "Needing action", [DQ Checks Needing Action],
+        "Handled", [DQ Checks Handled in Pipeline],
+        "Orders", [Order Count]
+    )

@@ -1,0 +1,33 @@
+{
+  "name": "Operations Model Navy",
+  "dataColors": ["#1F3A5F", "#4A90C2", "#F28C28", "#7FB069", "#9AA5B1", "#C0392B", "#6C5B7B", "#2A9D8F"],
+  "background": "#FFFFFF",
+  "foreground": "#1F2933",
+  "tableAccent": "#1F3A5F",
+  "good": "#2E7D32",
+  "neutral": "#F9A825",
+  "bad": "#C62828",
+  "maximum": "#1F3A5F",
+  "center": "#F5F7FA",
+  "minimum": "#C62828",
+  "textClasses": {
+    "title":   { "fontFace": "Segoe UI Semibold", "fontSize": 12, "color": "#1F2933" },
+    "callout": { "fontFace": "Segoe UI Semibold", "fontSize": 26, "color": "#1F3A5F" },
+    "label":   { "fontFace": "Segoe UI", "fontSize": 10, "color": "#52606D" },
+    "header":  { "fontFace": "Segoe UI Semibold", "fontSize": 11, "color": "#1F2933" }
+  },
+  "visualStyles": {
+    "*": {
+      "*": {
+        "background": [{ "show": true, "color": { "solid": { "color": "#FFFFFF" } }, "transparency": 0 }],
+        "border": [{ "show": true, "color": { "solid": { "color": "#E4E7EB" } }, "radius": 6 }],
+        "dropShadow": [{ "show": false }]
+      }
+    },
+    "page": {
+      "*": {
+        "background": [{ "color": { "solid": { "color": "#F5F7FA" } }, "transparency": 0 }]
+      }
+    }
+  }
+}

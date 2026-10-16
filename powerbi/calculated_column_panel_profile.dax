@@ -1,0 +1,12 @@
+// Calculated column on fact_sales_order (Table view > fact_sales_order > New column)
+Panel Profile =
+VAR _order = fact_sales_order[order_id]
+RETURN
+    MAXX (
+        FILTER (
+            fact_sales_line,
+            fact_sales_line[order_id] = _order
+                && RELATED ( dim_product[category] ) = "Panel"
+        ),
+        RELATED ( dim_product[profile] )
+    )

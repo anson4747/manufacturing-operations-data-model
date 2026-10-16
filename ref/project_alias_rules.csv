@@ -1,0 +1,8 @@
+rule_order,pattern,replacement,note
+1,\s*-\s*Level\s+\d+-\d+$,,Strip level range suffixes added by site teams
+2,\bTwr\b,Tower,Abbreviation
+3,\bApts\b,Apartments,Abbreviation
+4,\bResi\b,Residences,Abbreviation
+5,\bComm Ctr\b,Commercial Centre,Abbreviation
+6,\bLogistics Ctr\b,Logistics Centre,Abbreviation
+7,\bStg2\b,Stage 2,Abbreviation

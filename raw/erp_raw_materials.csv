@@ -1,0 +1,7 @@
+material_code,material_name,uom,base_unit_cost
+RM-COIL,Galvanised Steel Coil,t,1450.0
+RM-CEM,Cement,t,310.0
+RM-AGG,Lightweight Aggregate Additive,t,520.0
+RM-FOAM,Foaming Agent,L,6.8
+RM-SEAL,Sealant Bulk Cartridges,each,9.4
+RM-PLT,Timber Pallets,each,21.0

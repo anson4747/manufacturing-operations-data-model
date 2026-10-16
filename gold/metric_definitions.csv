@@ -1,0 +1,10 @@
+metric_name,definition,grain,inclusions_exclusions,owner,status
+Net Revenue,Quantity multiplied by invoiced unit price,Order line,Excludes cancelled orders; excludes freight and fuel levy; ex GST; dated by order date,Finance,Locked
+Gross Margin,Net revenue less standard cost (standard cost ratio applied to the list price in force on the order date),Order line,Same scope as Net Revenue,Finance,Locked
+On Time Delivery (Promise),Share of dispatched orders sent on or before the date the company promised,Order,Excludes open and cancelled orders and orders missing a dispatch date,Operations,Locked
+Request Met Rate,Share of dispatched orders sent on or before the date the customer requested,Order,Same scope as On Time Delivery (Promise); previously also reported as on time by some teams so renamed to remove ambiguity,Sales,Locked
+Order to Dispatch Days,Calendar days between order date and dispatch date,Order,Dispatched orders with a dispatch date only,Operations,Locked
+Stock Cover (Weeks),Stock on hand at the latest weekly snapshot divided by average weekly quantity shipped over the previous eight weeks,Site and SKU,Snapshot measure; do not sum across weeks,Operations,Locked
+Supplier On Time Rate,Share of received purchase orders received on or before the supplier expected date,Purchase order,Excludes open purchase orders,Procurement,Locked
+Scrap Rate,Square metres scrapped divided by square metres produced,Production day and SKU,Bayswater production only,Production,Locked
+Fuel Levy Recovered,Fuel levy charged to customers on freight,Order,Rate per SharePoint fuel levy list in force on the order date,Finance,Locked

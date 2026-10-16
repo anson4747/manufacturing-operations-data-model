@@ -1,0 +1,562 @@
+project_id,project_name,segment,state,stage,builder_name,est_m2,est_value,created_date,won_date
+SUG-20450,Penrith Commercial Centre,High-Rise & Commercial,NSW,Won,Highline Projects Pty Ltd,1487.0,101099.0,2024-05-05,2024-06-05
+SUG-20451,Hobart Tunnel Package B,Tunnels & Infrastructure,TAS,Lost,Crestline Constructions Pty Ltd,4188.0,284774.0,2023-07-03,
+SUG-20452,Cremorne Plaza,High-Rise & Commercial,VIC,Won,Lakeside Developments Pty Ltd,1563.0,106283.0,2023-05-20,2023-06-22
+SUG-20453,Woolloongabba Rail Station Services,Tunnels & Infrastructure,QLD,Lost,Hillcrest Developments Pty Ltd,6880.0,467843.0,2025-09-08,
+SUG-20454,Werribee Residences,Multi-Residential,VIC,Quoted,Westpoint Building Group Pty Ltd,2900.0,197212.0,2025-09-11,
+SUG-20455,Ringwood Health Hub Stage 2,High-Rise & Commercial,VIC,Won,Redgum Constructions Pty Ltd,551.0,37468.0,2026-01-14,2026-03-31
+SUG-20456,Chatswood Tower A,High-Rise & Commercial,NSW,Won,Foundry Developments Pty Ltd,2030.0,138025.0,2024-06-20,2024-08-26
+SUG-20457,Richmond Plaza A,High-Rise & Commercial,VIC,Quoted,Stonebridge Projects Pty Ltd,1361.0,92526.0,2026-05-11,
+SUG-20458,Glen Waverley Hotel Stage 2,High-Rise & Commercial,VIC,Won,Redgum Constructions Pty Ltd,949.0,64526.0,2025-06-21,2025-08-24
+SUG-20459,Footscray Substation Stage 2,Tunnels & Infrastructure,VIC,Lost,Westpoint Building Group Pty Ltd,2189.0,148883.0,2026-02-27,
+SUG-20460,Broadbeach Terraces Stage 2,Multi-Residential,QLD,Quoted,Hillcrest Developments Pty Ltd,773.0,52535.0,2024-05-26,
+SUG-20461,Zetland Residences Stage 2,Multi-Residential,NSW,Won,Crestline Constructions Pty Ltd,2726.0,185381.0,2024-09-05,2025-01-18
+SUG-20462,Broadbeach Rail Station Services B,Tunnels & Infrastructure,QLD,Quoted,Riverbend Constructions Pty Ltd,2014.0,136985.0,2026-06-28,
+SUG-20463,Ringwood Terraces Stage 2,Multi-Residential,VIC,Won,Ironbark Developments Pty Ltd,2039.0,138619.0,2025-02-11,2025-05-29
+SUG-20464,Glen Waverley Apartments B,Multi-Residential,VIC,Lost,Lakeside Developments Pty Ltd,935.0,63589.0,2023-11-05,
+SUG-20465,Liverpool Build to Rent Stage 2,Multi-Residential,NSW,Won,Crestline Constructions Pty Ltd,1177.0,80019.0,2024-06-25,2024-08-31
+SUG-20466,Southport Build to Rent,Multi-Residential,QLD,Won,Kingsway Projects Pty Ltd,696.0,47341.0,2026-06-30,2026-09-02
+SUG-20467,Parramatta Data Hall,Industrial & Cinema,NSW,Lead,Pinnacle Projects Pty Ltd,1768.0,120235.0,2024-06-01,
+SUG-20468,Parramatta Tower A,High-Rise & Commercial,NSW,Won,Metro Developments Pty Ltd,1785.0,121407.0,2024-01-29,2024-03-04
+SUG-20469,Cremorne Living Stage 2,Multi-Residential,VIC,Won,Arrow Constructions Pty Ltd,862.0,58612.0,2023-07-06,2023-08-13
+SUG-20470,Mascot Living A,Multi-Residential,NSW,Won,Metro Developments Pty Ltd,1265.0,86010.0,2025-04-17,2025-05-23
+SUG-20471,Mascot Cold Store,Industrial & Cinema,NSW,Lost,Metro Developments Pty Ltd,306.0,20796.0,2024-04-17,
+SUG-20472,Werribee Commercial Centre Stage 2,High-Rise & Commercial,VIC,Lost,Foundry Building Group Pty Ltd,2189.0,148839.0,2024-09-01,
+SUG-20473,Werribee Terraces,Multi-Residential,VIC,Quoted,Silverleaf Developments Pty Ltd,2266.0,154083.0,2023-08-07,
+SUG-20474,Newstead Plaza,High-Rise & Commercial,QLD,Won,Hillcrest Developments Pty Ltd,507.0,34489.0,2024-08-31,2024-09-20
+SUG-20475,Toowong Terraces A,Multi-Residential,QLD,Won,Kingsway Projects Pty Ltd,4826.0,328144.0,2023-09-09,2023-12-24
+SUG-20476,Southport Substation,Tunnels & Infrastructure,QLD,Lost,Kingsway Building Group Pty Ltd,1855.0,126162.0,2023-07-19,
+SUG-20477,Richmond Commercial Centre,High-Rise & Commercial,VIC,Quoted,Eastside Developments Pty Ltd,2385.0,162175.0,2026-06-18,
+SUG-20478,Ryde Residences,Multi-Residential,NSW,Quoted,Foundry Developments Pty Ltd,906.0,61586.0,2024-09-19,
+SUG-20479,Dandenong Logistics Centre B,Industrial & Cinema,VIC,Lost,Arrow Developments Pty Ltd,11791.0,801762.0,2023-12-31,
+SUG-20480,Parramatta Commercial Centre B,High-Rise & Commercial,NSW,Won,Southern Cross Constructions Pty Ltd,1391.0,94621.0,2023-08-25,2023-12-10
+SUG-20481,Woolloongabba Plaza Stage 2,High-Rise & Commercial,QLD,Won,Riverbend Constructions Pty Ltd,2458.0,167174.0,2025-05-01,2025-07-09
+SUG-20482,Box Hill Health Hub,High-Rise & Commercial,VIC,Lost,Westpoint Building Group Pty Ltd,1539.0,104641.0,2024-02-13,
+SUG-20483,Brunswick Living,Multi-Residential,VIC,Quoted,Ironbark Developments Pty Ltd,3483.0,236865.0,2024-09-11,
+SUG-20484,Doncaster Substation B,Tunnels & Infrastructure,VIC,Quoted,Redgum Constructions Pty Ltd,9136.0,621236.0,2026-02-10,
+SUG-20485,Preston Apartments,Multi-Residential,VIC,Lead,Stonebridge Projects Pty Ltd,1694.0,115202.0,2023-12-10,
+SUG-20486,Mascot Hotel A,High-Rise & Commercial,NSW,Won,Foundry Developments Pty Ltd,1643.0,111749.0,2026-02-23,2026-06-22
+SUG-20487,Ringwood Build to Rent B,Multi-Residential,VIC,Won,Ridgeway Developments Pty Ltd,2235.0,151956.0,2023-08-18,2023-12-05
+SUG-20488,Preston Warehouse Fitout,Industrial & Cinema,VIC,Won,Redgum Constructions Pty Ltd,1933.0,131410.0,2024-03-28,2024-04-29
+SUG-20489,Cremorne Cinema B,Industrial & Cinema,VIC,Won,Eastside Developments Pty Ltd,598.0,40680.0,2025-04-17,2025-07-29
+SUG-20490,Ryde Ventilation Building Stage 2,Tunnels & Infrastructure,NSW,Lost,Metro Developments Pty Ltd,3718.0,252851.0,2025-03-01,
+SUG-20491,Woolloongabba Tunnel Package,Tunnels & Infrastructure,QLD,Lost,Riverbend Constructions Pty Ltd,1216.0,82669.0,2025-09-27,
+SUG-20492,Cremorne Ventilation Building,Tunnels & Infrastructure,VIC,Lead,Southern Cross Developments Pty Ltd,2955.0,200926.0,2026-07-03,
+SUG-20493,Broadbeach Tunnel Package B,Tunnels & Infrastructure,QLD,Won,Kingsway Building Group Pty Ltd,1618.0,110039.0,2023-11-28,2024-03-13
+SUG-20494,Robina Terraces,Multi-Residential,QLD,Lost,Kingsway Building Group Pty Ltd,4638.0,315364.0,2024-06-05,
+SUG-20495,Glen Waverley Plaza Stage 2,High-Rise & Commercial,VIC,Won,Westpoint Building Group Pty Ltd,5369.0,365082.0,2023-11-11,2023-12-05
+SUG-20496,Southport Terraces,Multi-Residential,QLD,Lost,Kingsway Building Group Pty Ltd,691.0,46991.0,2023-09-09,
+SUG-20497,Ryde Terraces A,Multi-Residential,NSW,Quoted,Fairview Developments Pty Ltd,1082.0,73548.0,2024-02-04,
+SUG-20498,Wollongong Living,Multi-Residential,NSW,Lead,Crestline Developments Pty Ltd,2991.0,203395.0,2025-11-06,
+SUG-20499,Bowden Warehouse Fitout Stage 2,Industrial & Cinema,SA,Lost,Metro Developments Pty Ltd,394.0,26766.0,2026-06-20,
+SUG-20500,Southbank Living,Multi-Residential,VIC,Won,Silverleaf Developments Pty Ltd,941.0,63987.0,2024-02-13,2024-03-07
+SUG-20501,Brunswick Apartments,Multi-Residential,VIC,Lost,Lakeside Projects Pty Ltd,1578.0,107305.0,2026-04-02,
+SUG-20502,Richmond Residences,Multi-Residential,VIC,Lost,Arrow Constructions Pty Ltd,3401.0,231277.0,2024-01-24,
+SUG-20503,Broadbeach Health Hub A,High-Rise & Commercial,QLD,Quoted,Kingsway Projects Pty Ltd,1996.0,135731.0,2026-08-24,
+SUG-20504,Macquarie Park Data Hall Stage 2,Industrial & Cinema,NSW,Won,Crestline Constructions Pty Ltd,2603.0,177015.0,2025-02-14,2025-06-22
+SUG-20505,Rhodes Living Stage 2,Multi-Residential,NSW,Quoted,Eastside Constructions Pty Ltd,355.0,24159.0,2023-06-02,
+SUG-20506,Chatswood Data Hall A,Industrial & Cinema,NSW,Won,Fairview Developments Pty Ltd,900.0,61177.0,2024-07-10,2024-10-23
+SUG-20507,Southport Residences A,Multi-Residential,QLD,Quoted,Riverbend Constructions Pty Ltd,2789.0,189621.0,2023-07-14,
+SUG-20508,Chermside Build to Rent B,Multi-Residential,QLD,Lead,Riverbend Constructions Pty Ltd,465.0,31610.0,2025-09-24,
+SUG-20509,Parramatta Cinema,Industrial & Cinema,NSW,Lead,Eastside Constructions Pty Ltd,1913.0,130096.0,2025-04-19,
+SUG-20510,Docklands Office Tower,High-Rise & Commercial,VIC,Quoted,Stonebridge Projects Pty Ltd,1609.0,109409.0,2025-09-16,
+SUG-20511,Rhodes Health Hub,High-Rise & Commercial,NSW,Lead,Crestline Developments Pty Ltd,1304.0,88641.0,2023-07-24,
+SUG-20512,Robina Data Hall Stage 2,Industrial & Cinema,QLD,Won,Kingsway Building Group Pty Ltd,982.0,66769.0,2023-10-12,2023-11-28
+SUG-20513,Adelaide Substation B,Tunnels & Infrastructure,SA,Quoted,Ironbark Developments Pty Ltd,3033.0,206278.0,2026-06-15,
+SUG-20514,Hobart Terraces A,Multi-Residential,TAS,Won,Hillcrest Developments Pty Ltd,1489.0,101243.0,2025-07-12,2025-10-10
+SUG-20515,Hobart Health Hub B,High-Rise & Commercial,TAS,Quoted,Arrow Constructions Pty Ltd,1035.0,70362.0,2026-07-12,
+SUG-20516,Richmond Office Tower,High-Rise & Commercial,VIC,Won,Ironbark Developments Pty Ltd,1134.0,77090.0,2024-08-31,2024-10-21
+SUG-20517,Penrith Data Hall A,Industrial & Cinema,NSW,Won,Fairview Developments Pty Ltd,976.0,66358.0,2026-01-04,2026-01-26
+SUG-20518,Fortitude Valley Build to Rent A,Multi-Residential,QLD,Won,Riverbend Constructions Pty Ltd,729.0,49562.0,2024-10-25,2025-01-04
+SUG-20519,Chermside Data Hall,Industrial & Cinema,QLD,Won,Kingsway Building Group Pty Ltd,454.0,30870.0,2024-04-22,2024-06-15
+SUG-20520,Southport Office Tower A,High-Rise & Commercial,QLD,Won,Hillcrest Developments Pty Ltd,1040.0,70705.0,2024-08-17,2024-10-23
+SUG-20521,Preston Terraces B,Multi-Residential,VIC,Won,Westpoint Building Group Pty Ltd,6173.0,419750.0,2025-09-27,2026-01-30
+SUG-20522,Macquarie Park Commercial Centre Stage 2,High-Rise & Commercial,NSW,Quoted,Fairview Developments Pty Ltd,1940.0,131941.0,2026-06-03,
+SUG-20523,Parramatta Cinema Stage 2,Industrial & Cinema,NSW,Lead,Crestline Constructions Pty Ltd,307.0,20850.0,2023-09-03,
+SUG-20524,Wollongong Tunnel Package,Tunnels & Infrastructure,NSW,Lost,Fairview Developments Pty Ltd,2108.0,143348.0,2026-01-14,
+SUG-20525,Docklands Apartments,Multi-Residential,VIC,Won,Southern Cross Developments Pty Ltd,1012.0,68841.0,2025-06-26,2025-10-04
+SUG-20526,Robina Plaza Stage 2,High-Rise & Commercial,QLD,Won,Kingsway Building Group Pty Ltd,4406.0,299575.0,2024-08-31,2024-11-29
+SUG-20527,Newstead Terraces,Multi-Residential,QLD,Won,Kingsway Building Group Pty Ltd,1698.0,115443.0,2025-06-07,2025-09-18
+SUG-20528,Preston Cold Store,Industrial & Cinema,VIC,Won,Arrow Constructions Pty Ltd,915.0,62243.0,2024-09-04,2024-11-18
+SUG-20529,Newstead Rail Station Services B,Tunnels & Infrastructure,QLD,Quoted,Kingsway Projects Pty Ltd,3168.0,215399.0,2026-02-26,
+SUG-20530,Liverpool Rail Station Services B,Tunnels & Infrastructure,NSW,Won,Southern Cross Constructions Pty Ltd,1498.0,101831.0,2025-06-17,2025-09-15
+SUG-20531,Parramatta Terraces Stage 2,Multi-Residential,NSW,Won,Eastside Constructions Pty Ltd,1714.0,116582.0,2023-10-28,2024-02-28
+SUG-20532,Newstead Living Stage 2,Multi-Residential,QLD,Lead,Kingsway Building Group Pty Ltd,1689.0,114834.0,2025-10-25,
+SUG-20533,Footscray Residences,Multi-Residential,VIC,Quoted,Stonebridge Projects Pty Ltd,701.0,47662.0,2026-03-09,
+SUG-20534,Ringwood Terraces,Multi-Residential,VIC,Won,Lakeside Developments Pty Ltd,3232.0,219768.0,2023-06-02,2023-10-19
+SUG-20535,Newstead Living B,Multi-Residential,QLD,Won,Hillcrest Developments Pty Ltd,2019.0,137283.0,2024-07-15,2024-08-14
+SUG-20536,Box Hill Warehouse Fitout A,Industrial & Cinema,VIC,Won,Arrow Constructions Pty Ltd,774.0,52637.0,2025-09-02,2026-01-01
+SUG-20537,Dandenong Rail Station Services,Tunnels & Infrastructure,VIC,Quoted,Arrow Constructions Pty Ltd,1546.0,105120.0,2026-05-29,
+SUG-20538,Robina Cinema Stage 2,Industrial & Cinema,QLD,Won,Kingsway Building Group Pty Ltd,2984.0,202916.0,2024-09-02,2024-10-05
+SUG-20539,Woolloongabba Hotel,High-Rise & Commercial,QLD,Won,Kingsway Building Group Pty Ltd,2854.0,194095.0,2025-10-12,2026-01-19
+SUG-20540,Adelaide Terraces,Multi-Residential,SA,Won,Silverleaf Developments Pty Ltd,1314.0,89362.0,2026-07-10,2026-09-15
+SUG-20541,Newstead Health Hub,High-Rise & Commercial,QLD,Won,Kingsway Projects Pty Ltd,1329.0,90393.0,2023-07-14,2023-10-12
+SUG-20542,Glen Waverley Commercial Centre A,High-Rise & Commercial,VIC,Lost,Eastside Developments Pty Ltd,1278.0,86925.0,2025-11-19,
+SUG-20543,Dandenong Data Hall Stage 2,Industrial & Cinema,VIC,Lost,Ridgeway Developments Pty Ltd,3301.0,224456.0,2024-10-17,
+SUG-20544,Liverpool Living A,Multi-Residential,NSW,Quoted,Highline Projects Pty Ltd,426.0,28951.0,2026-03-22,
+SUG-20545,Mascot Build to Rent A,Multi-Residential,NSW,Won,Metro Developments Pty Ltd,713.0,48499.0,2025-11-26,2026-01-29
+SUG-20546,Glen Waverley Cold Store Stage 2,Industrial & Cinema,VIC,Won,Lakeside Projects Pty Ltd,767.0,52127.0,2023-10-10,2024-01-11
+SUG-20547,Zetland Commercial Centre Stage 2,High-Rise & Commercial,NSW,Won,Crestline Developments Pty Ltd,1294.0,87976.0,2024-11-05,2025-01-28
+SUG-20548,Penrith Apartments,Multi-Residential,NSW,Lost,Highline Projects Pty Ltd,4968.0,337816.0,2024-01-30,
+SUG-20549,Docklands Office Tower B,High-Rise & Commercial,VIC,Won,Silverleaf Developments Pty Ltd,4952.0,336731.0,2024-01-21,2024-04-04
+SUG-20550,Newstead Residences Stage 2,Multi-Residential,QLD,Lost,Kingsway Building Group Pty Ltd,2744.0,186622.0,2024-05-15,
+SUG-20551,Southport Living,Multi-Residential,QLD,Lost,Riverbend Constructions Pty Ltd,2850.0,193789.0,2025-05-16,
+SUG-20552,Chermside Commercial Centre A,High-Rise & Commercial,QLD,Won,Kingsway Building Group Pty Ltd,2447.0,166368.0,2025-02-06,2025-04-08
+SUG-20553,Docklands Plaza,High-Rise & Commercial,VIC,Quoted,Ridgeway Developments Pty Ltd,1698.0,115490.0,2026-08-29,
+SUG-20554,Chermside Plaza,High-Rise & Commercial,QLD,Lost,Riverbend Constructions Pty Ltd,2220.0,150962.0,2024-01-08,
+SUG-20555,Newstead Substation,Tunnels & Infrastructure,QLD,Lost,Hillcrest Developments Pty Ltd,5151.0,350257.0,2024-12-21,
+SUG-20556,Southbank Residences Stage 2,Multi-Residential,VIC,Won,Arrow Constructions Pty Ltd,774.0,52629.0,2024-06-30,2024-11-06
+SUG-20557,Penrith Living,Multi-Residential,NSW,Lost,Eastside Constructions Pty Ltd,1224.0,83230.0,2024-09-09,
+SUG-20558,Zetland Ventilation Building Stage 2,Tunnels & Infrastructure,NSW,Won,Fairview Developments Pty Ltd,1709.0,116187.0,2023-11-29,2023-12-28
+SUG-20559,Adelaide Commercial Centre,High-Rise & Commercial,SA,Won,Crestline Developments Pty Ltd,1265.0,86011.0,2024-07-11,2024-09-05
+SUG-20560,Doncaster Living A,Multi-Residential,VIC,Lost,Southern Cross Developments Pty Ltd,3500.0,238018.0,2025-05-12,
+SUG-20561,Chatswood Cold Store A,Industrial & Cinema,NSW,Won,Highline Projects Pty Ltd,939.0,63856.0,2024-08-05,2024-10-11
+SUG-20562,Collingwood Residences,Multi-Residential,VIC,Quoted,Eastside Developments Pty Ltd,1478.0,100498.0,2025-10-06,
+SUG-20563,Richmond Cold Store Stage 2,Industrial & Cinema,VIC,Won,Ironbark Developments Pty Ltd,448.0,30446.0,2025-12-26,2026-02-21
+SUG-20564,Robina Terraces B,Multi-Residential,QLD,Lost,Hillcrest Developments Pty Ltd,1112.0,75610.0,2026-08-17,
+SUG-20565,Docklands Logistics Centre Stage 2,Industrial & Cinema,VIC,Lead,Westpoint Building Group Pty Ltd,2342.0,159290.0,2023-05-22,
+SUG-20566,Broadbeach Rail Station Services A,Tunnels & Infrastructure,QLD,Lost,Hillcrest Developments Pty Ltd,2780.0,189023.0,2025-01-16,
+SUG-20567,Southbank Plaza,High-Rise & Commercial,VIC,Won,Foundry Building Group Pty Ltd,1160.0,78866.0,2024-12-12,2025-03-23
+SUG-20568,Rhodes Living A,Multi-Residential,NSW,Won,Crestline Developments Pty Ltd,534.0,36344.0,2025-09-10,2026-01-06
+SUG-20569,Doncaster Apartments,Multi-Residential,VIC,Won,Silverleaf Developments Pty Ltd,1446.0,98337.0,2024-12-15,2025-02-27
+SUG-20570,Werribee Apartments Stage 2,Multi-Residential,VIC,Lost,Stonebridge Projects Pty Ltd,1163.0,79056.0,2025-02-17,
+SUG-20571,Rhodes Office Tower,High-Rise & Commercial,NSW,Won,Eastside Constructions Pty Ltd,561.0,38131.0,2026-02-28,2026-03-23
+SUG-20572,Southbank Cinema B,Industrial & Cinema,VIC,Lost,Silverleaf Developments Pty Ltd,2084.0,141724.0,2025-07-07,
+SUG-20573,Ringwood Warehouse Fitout B,Industrial & Cinema,VIC,Won,Lakeside Projects Pty Ltd,2658.0,180768.0,2026-05-24,2026-07-11
+SUG-20574,Mascot Residences B,Multi-Residential,NSW,Lost,Metro Developments Pty Ltd,1393.0,94747.0,2026-06-15,
+SUG-20575,Woolloongabba Office Tower Stage 2,High-Rise & Commercial,QLD,Quoted,Hillcrest Developments Pty Ltd,3132.0,212987.0,2025-03-23,
+SUG-20576,Werribee Living B,Multi-Residential,VIC,Won,Southern Cross Developments Pty Ltd,1015.0,69045.0,2026-05-01,2026-06-07
+SUG-20577,Southport Cinema,Industrial & Cinema,QLD,Lost,Riverbend Constructions Pty Ltd,1905.0,129562.0,2023-09-25,
+SUG-20578,Glen Waverley Living B,Multi-Residential,VIC,Won,Arrow Developments Pty Ltd,2731.0,185733.0,2025-02-11,2025-06-11
+SUG-20579,Broadbeach Office Tower,High-Rise & Commercial,QLD,Won,Kingsway Projects Pty Ltd,676.0,45944.0,2026-02-27,2026-03-20
+SUG-20580,Bowden Office Tower B,High-Rise & Commercial,SA,Won,Kingsway Building Group Pty Ltd,2249.0,152909.0,2025-11-06,2025-12-14
+SUG-20581,Preston Apartments B,Multi-Residential,VIC,Won,Arrow Constructions Pty Ltd,2027.0,137864.0,2023-07-19,2023-11-29
+SUG-20582,Glen Waverley Build to Rent,Multi-Residential,VIC,Won,Lakeside Projects Pty Ltd,2217.0,150745.0,2024-04-18,2024-07-23
+SUG-20583,Dandenong Data Hall,Industrial & Cinema,VIC,Won,Arrow Constructions Pty Ltd,1680.0,114237.0,2023-08-17,2023-12-20
+SUG-20584,Brunswick Terraces A,Multi-Residential,VIC,Quoted,Silverleaf Developments Pty Ltd,2405.0,163508.0,2026-07-02,
+SUG-20585,Wollongong Rail Station Services B,Tunnels & Infrastructure,NSW,Lost,Southern Cross Constructions Pty Ltd,918.0,62422.0,2026-04-14,
+SUG-20586,Zetland Living B,Multi-Residential,NSW,Lost,Pinnacle Projects Pty Ltd,2616.0,177891.0,2023-11-11,
+SUG-20587,Ringwood Hotel A,High-Rise & Commercial,VIC,Won,Foundry Building Group Pty Ltd,687.0,46697.0,2026-06-05,2026-09-12
+SUG-20588,Broadbeach Ventilation Building A,Tunnels & Infrastructure,QLD,Won,Hillcrest Developments Pty Ltd,1577.0,107264.0,2026-02-07,2026-05-16
+SUG-20589,Macquarie Park Apartments,Multi-Residential,NSW,Won,Crestline Constructions Pty Ltd,962.0,65433.0,2023-06-12,2023-10-16
+SUG-20590,Rhodes Office Tower Stage 2,High-Rise & Commercial,NSW,Lost,Crestline Constructions Pty Ltd,567.0,38560.0,2024-03-25,
+SUG-20591,Wollongong Cold Store A,Industrial & Cinema,NSW,Lost,Eastside Constructions Pty Ltd,852.0,57934.0,2026-01-30,
+SUG-20592,Brunswick Tower B,High-Rise & Commercial,VIC,Lost,Arrow Developments Pty Ltd,1811.0,123164.0,2026-01-15,
+SUG-20593,Collingwood Office Tower Stage 2,High-Rise & Commercial,VIC,Won,Westpoint Building Group Pty Ltd,2379.0,161741.0,2025-03-27,2025-08-12
+SUG-20594,Preston Tunnel Package B,Tunnels & Infrastructure,VIC,Lost,Stonebridge Projects Pty Ltd,1628.0,110673.0,2024-06-10,
+SUG-20595,Ryde Terraces B,Multi-Residential,NSW,Won,Crestline Developments Pty Ltd,939.0,63843.0,2026-03-06,2026-04-04
+SUG-20596,Penrith Office Tower,High-Rise & Commercial,NSW,Won,Southern Cross Constructions Pty Ltd,1708.0,116172.0,2025-03-05,2025-04-29
+SUG-20597,Fortitude Valley Substation A,Tunnels & Infrastructure,QLD,Lost,Hillcrest Developments Pty Ltd,3233.0,219838.0,2024-08-04,
+SUG-20598,Docklands Living,Multi-Residential,VIC,Won,Lakeside Developments Pty Ltd,763.0,51913.0,2024-08-12,2024-10-06
+SUG-20599,Preston Plaza,High-Rise & Commercial,VIC,Won,Southern Cross Developments Pty Ltd,481.0,32731.0,2024-11-27,2025-04-13
+SUG-20600,Brunswick Build to Rent Stage 2,Multi-Residential,VIC,Lost,Westpoint Building Group Pty Ltd,2011.0,136781.0,2024-02-02,
+SUG-20601,Macquarie Park Tunnel Package B,Tunnels & Infrastructure,NSW,Won,Crestline Developments Pty Ltd,2803.0,190637.0,2026-07-16,2026-08-16
+SUG-20602,Glen Waverley Rail Station Services,Tunnels & Infrastructure,VIC,Won,Stonebridge Projects Pty Ltd,924.0,62861.0,2025-10-25,2026-01-26
+SUG-20603,Zetland Living,Multi-Residential,NSW,Lost,Pinnacle Projects Pty Ltd,1440.0,97929.0,2024-06-04,
+SUG-20604,Woolloongabba Build to Rent,Multi-Residential,QLD,Won,Kingsway Projects Pty Ltd,1114.0,75782.0,2023-09-03,2023-10-20
+SUG-20605,Ringwood Plaza Stage 2,High-Rise & Commercial,VIC,Lost,Lakeside Developments Pty Ltd,1876.0,127570.0,2025-03-26,
+SUG-20606,Southport Terraces A,Multi-Residential,QLD,Quoted,Kingsway Building Group Pty Ltd,685.0,46551.0,2026-05-21,
+SUG-20607,Parramatta Residences Stage 2,Multi-Residential,NSW,Won,Metro Developments Pty Ltd,458.0,31111.0,2024-02-03,2024-04-05
+SUG-20608,Macquarie Park Logistics Centre,Industrial & Cinema,NSW,Won,Eastside Constructions Pty Ltd,1803.0,122605.0,2023-10-11,2024-02-25
+SUG-20609,Footscray Plaza B,High-Rise & Commercial,VIC,Won,Lakeside Projects Pty Ltd,4043.0,274955.0,2025-02-04,2025-03-09
+SUG-20610,Collingwood Data Hall,Industrial & Cinema,VIC,Lost,Foundry Building Group Pty Ltd,791.0,53795.0,2024-09-12,
+SUG-20611,Penrith Rail Station Services Stage 2,Tunnels & Infrastructure,NSW,Won,Crestline Developments Pty Ltd,3643.0,247720.0,2024-09-17,2024-12-22
+SUG-20612,Chermside Build to Rent,Multi-Residential,QLD,Won,Kingsway Building Group Pty Ltd,1915.0,130201.0,2023-10-21,2023-12-25
+SUG-20613,Chatswood Plaza,High-Rise & Commercial,NSW,Won,Fairview Developments Pty Ltd,403.0,27432.0,2025-09-20,2025-12-01
+SUG-20614,Macquarie Park Living A,Multi-Residential,NSW,Won,Metro Developments Pty Ltd,1964.0,133546.0,2024-06-11,2024-10-06
+SUG-20615,Toowong Ventilation Building A,Tunnels & Infrastructure,QLD,Lead,Kingsway Projects Pty Ltd,3258.0,221559.0,2026-07-20,
+SUG-20616,Preston Living B,Multi-Residential,VIC,Lead,Foundry Building Group Pty Ltd,808.0,54920.0,2026-07-16,
+SUG-20617,Richmond Build to Rent,Multi-Residential,VIC,Lost,Southern Cross Developments Pty Ltd,747.0,50784.0,2026-09-03,
+SUG-20618,Toowong Data Hall,Industrial & Cinema,QLD,Won,Kingsway Building Group Pty Ltd,1250.0,84994.0,2026-04-12,2026-07-28
+SUG-20619,Dandenong Build to Rent A,Multi-Residential,VIC,Lead,Eastside Developments Pty Ltd,2030.0,138060.0,2026-02-09,
+SUG-20620,Robina Data Hall,Industrial & Cinema,QLD,Lost,Kingsway Projects Pty Ltd,300.0,20400.0,2023-05-24,
+SUG-20621,Dandenong Build to Rent Stage 2,Multi-Residential,VIC,Won,Silverleaf Developments Pty Ltd,1685.0,114596.0,2025-12-29,2026-03-14
+SUG-20622,Wollongong Residences,Multi-Residential,NSW,Won,Crestline Developments Pty Ltd,1717.0,116729.0,2024-08-12,2024-09-29
+SUG-20623,Collingwood Health Hub,High-Rise & Commercial,VIC,Won,Redgum Constructions Pty Ltd,878.0,59721.0,2026-04-01,2026-08-07
+SUG-20624,Richmond Terraces Stage 2,Multi-Residential,VIC,Quoted,Foundry Building Group Pty Ltd,1716.0,116703.0,2025-12-19,
+SUG-20625,Toowong Plaza A,High-Rise & Commercial,QLD,Lost,Kingsway Projects Pty Ltd,648.0,44035.0,2025-04-16,
+SUG-20626,Dandenong Ventilation Building,Tunnels & Infrastructure,VIC,Lead,Westpoint Building Group Pty Ltd,2432.0,165351.0,2023-09-27,
+SUG-20627,Robina Living B,Multi-Residential,QLD,Lost,Hillcrest Developments Pty Ltd,300.0,20400.0,2025-06-10,
+SUG-20628,Chatswood Residences A,Multi-Residential,NSW,Quoted,Foundry Developments Pty Ltd,730.0,49620.0,2023-06-03,
+SUG-20629,Chatswood Office Tower Stage 2,High-Rise & Commercial,NSW,Quoted,Crestline Constructions Pty Ltd,1448.0,98488.0,2026-04-17,
+SUG-20630,Werribee Commercial Centre,High-Rise & Commercial,VIC,Quoted,Foundry Building Group Pty Ltd,1948.0,132463.0,2025-07-11,
+SUG-20631,Toowong Apartments,Multi-Residential,QLD,Lost,Riverbend Constructions Pty Ltd,2032.0,138154.0,2025-08-28,
+SUG-20632,Brunswick Terraces,Multi-Residential,VIC,Won,Lakeside Projects Pty Ltd,1080.0,73422.0,2023-08-16,2023-10-14
+SUG-20633,Box Hill Warehouse Fitout Stage 2,Industrial & Cinema,VIC,Won,Eastside Developments Pty Ltd,1374.0,93399.0,2023-12-09,2023-12-30
+SUG-20634,Robina Living,Multi-Residential,QLD,Won,Kingsway Building Group Pty Ltd,768.0,52230.0,2024-11-16,2025-02-28
+SUG-20635,Adelaide Apartments B,Multi-Residential,SA,Lost,Lakeside Developments Pty Ltd,763.0,51905.0,2023-08-24,
+SUG-20636,Broadbeach Health Hub Stage 2,High-Rise & Commercial,QLD,Lost,Riverbend Constructions Pty Ltd,1355.0,92136.0,2023-05-23,
+SUG-20637,Glen Waverley Terraces,Multi-Residential,VIC,Won,Ironbark Developments Pty Ltd,1104.0,75096.0,2023-07-02,2023-09-15
+SUG-20638,Chermside Office Tower,High-Rise & Commercial,QLD,Lost,Riverbend Constructions Pty Ltd,1607.0,109304.0,2023-09-17,
+SUG-20639,Chatswood Ventilation Building,Tunnels & Infrastructure,NSW,Won,Fairview Developments Pty Ltd,4054.0,275653.0,2025-03-19,2025-05-01
+SUG-20640,Collingwood Ventilation Building Stage 2,Tunnels & Infrastructure,VIC,Quoted,Foundry Building Group Pty Ltd,1587.0,107931.0,2023-07-06,
+SUG-20641,Chatswood Commercial Centre B,High-Rise & Commercial,NSW,Won,Foundry Developments Pty Ltd,2383.0,162044.0,2025-04-15,2025-06-13
+SUG-20642,Broadbeach Hotel,High-Rise & Commercial,QLD,Won,Hillcrest Developments Pty Ltd,1228.0,83523.0,2023-06-09,2023-07-24
+SUG-20643,Mascot Terraces Stage 2,Multi-Residential,NSW,Lead,Pinnacle Projects Pty Ltd,3355.0,228123.0,2025-01-01,
+SUG-20644,Ringwood Apartments,Multi-Residential,VIC,Quoted,Eastside Developments Pty Ltd,1376.0,93538.0,2024-04-10,
+SUG-20645,Bowden Plaza Stage 2,High-Rise & Commercial,SA,Won,Foundry Developments Pty Ltd,777.0,52863.0,2025-06-27,2025-08-19
+SUG-20646,Toowong Cold Store,Industrial & Cinema,QLD,Won,Hillcrest Developments Pty Ltd,2972.0,202091.0,2024-12-24,2025-02-28
+SUG-20647,Cremorne Cinema,Industrial & Cinema,VIC,Lost,Lakeside Projects Pty Ltd,4863.0,330653.0,2025-01-25,
+SUG-20648,Southport Office Tower,High-Rise & Commercial,QLD,Won,Hillcrest Developments Pty Ltd,1206.0,81997.0,2025-05-03,2025-08-08
+SUG-20649,Fortitude Valley Rail Station Services A,Tunnels & Infrastructure,QLD,Won,Riverbend Constructions Pty Ltd,7947.0,540366.0,2023-08-14,2023-10-07
+SUG-20650,Footscray Tower Stage 2,High-Rise & Commercial,VIC,Won,Westpoint Building Group Pty Ltd,2420.0,164560.0,2024-02-07,2024-03-12
+SUG-20651,Penrith Logistics Centre B,Industrial & Cinema,NSW,Won,Crestline Developments Pty Ltd,1176.0,79964.0,2025-08-14,2025-12-23
+SUG-20652,Liverpool Logistics Centre,Industrial & Cinema,NSW,Won,Crestline Constructions Pty Ltd,1314.0,89361.0,2024-12-13,2025-03-25
+SUG-20653,Liverpool Living B,Multi-Residential,NSW,Won,Southern Cross Constructions Pty Ltd,2707.0,184103.0,2024-01-17,2024-03-04
+SUG-20654,Ryde Hotel,High-Rise & Commercial,NSW,Quoted,Foundry Developments Pty Ltd,1183.0,80443.0,2023-05-20,
+SUG-20655,Dandenong Office Tower B,High-Rise & Commercial,VIC,Won,Southern Cross Developments Pty Ltd,1815.0,123446.0,2024-09-08,2025-01-10
+SUG-20656,Ringwood Health Hub,High-Rise & Commercial,VIC,Lost,Lakeside Projects Pty Ltd,1406.0,95634.0,2023-07-08,
+SUG-20657,Wollongong Hotel Stage 2,High-Rise & Commercial,NSW,Won,Southern Cross Constructions Pty Ltd,1572.0,106873.0,2025-06-20,2025-07-19
+SUG-20658,Woolloongabba Health Hub,High-Rise & Commercial,QLD,Quoted,Hillcrest Developments Pty Ltd,2994.0,203567.0,2024-02-29,
+SUG-20659,Rhodes Tower,High-Rise & Commercial,NSW,Won,Highline Projects Pty Ltd,705.0,47947.0,2025-06-25,2025-11-11
+SUG-20660,Wollongong Apartments A,Multi-Residential,NSW,Quoted,Pinnacle Projects Pty Ltd,2952.0,200744.0,2025-08-02,
+SUG-20661,Footscray Build to Rent,Multi-Residential,VIC,Quoted,Stonebridge Projects Pty Ltd,2042.0,138824.0,2025-06-23,
+SUG-20662,Newstead Residences,Multi-Residential,QLD,Lost,Riverbend Constructions Pty Ltd,841.0,57187.0,2023-12-28,
+SUG-20663,Chermside Living A,Multi-Residential,QLD,Won,Riverbend Constructions Pty Ltd,1066.0,72489.0,2024-05-27,2024-07-03
+SUG-20664,Fortitude Valley Build to Rent B,Multi-Residential,QLD,Won,Kingsway Building Group Pty Ltd,544.0,37023.0,2026-02-01,2026-04-11
+SUG-20665,Bowden Living Stage 2,Multi-Residential,SA,Quoted,Metro Developments Pty Ltd,3381.0,229909.0,2025-09-09,
+SUG-20666,Mascot Rail Station Services A,Tunnels & Infrastructure,NSW,Won,Eastside Constructions Pty Ltd,5035.0,342391.0,2025-11-12,2026-01-09
+SUG-20667,Cremorne Build to Rent A,Multi-Residential,VIC,Won,Ironbark Developments Pty Ltd,4332.0,294577.0,2025-07-09,2025-08-17
+SUG-20668,Richmond Plaza Stage 2,High-Rise & Commercial,VIC,Won,Redgum Constructions Pty Ltd,850.0,57811.0,2024-05-19,2024-09-10
+SUG-20669,Robina Office Tower,High-Rise & Commercial,QLD,Won,Hillcrest Developments Pty Ltd,2371.0,161231.0,2025-08-15,2025-10-30
+SUG-20670,Toowong Hotel,High-Rise & Commercial,QLD,Won,Hillcrest Developments Pty Ltd,533.0,36240.0,2023-07-12,2023-11-28
+SUG-20671,Ryde Tunnel Package A,Tunnels & Infrastructure,NSW,Lead,Eastside Constructions Pty Ltd,1487.0,101095.0,2024-06-02,
+SUG-20672,Ringwood Tunnel Package A,Tunnels & Infrastructure,VIC,Won,Arrow Developments Pty Ltd,2682.0,182380.0,2023-09-08,2024-01-08
+SUG-20673,Werribee Tower,High-Rise & Commercial,VIC,Lost,Redgum Constructions Pty Ltd,2939.0,199842.0,2025-03-03,
+SUG-20674,Doncaster Build to Rent,Multi-Residential,VIC,Lost,Lakeside Developments Pty Ltd,2275.0,154731.0,2024-07-07,
+SUG-20675,Werribee Build to Rent B,Multi-Residential,VIC,Won,Redgum Constructions Pty Ltd,878.0,59696.0,2025-12-30,2026-04-26
+SUG-20676,Docklands Rail Station Services Stage 2,Tunnels & Infrastructure,VIC,Won,Arrow Developments Pty Ltd,4174.0,283813.0,2025-12-18,2026-03-30
+SUG-20677,Box Hill Tower A,High-Rise & Commercial,VIC,Won,Arrow Developments Pty Ltd,1756.0,119400.0,2026-01-02,2026-02-12
+SUG-20678,Chermside Residences,Multi-Residential,QLD,Won,Hillcrest Developments Pty Ltd,2749.0,186964.0,2026-03-25,2026-04-18
+SUG-20679,Doncaster Residences Stage 2,Multi-Residential,VIC,Won,Lakeside Developments Pty Ltd,959.0,65225.0,2023-12-14,2024-03-15
+SUG-20680,Broadbeach Living A,Multi-Residential,QLD,Won,Kingsway Building Group Pty Ltd,863.0,58717.0,2025-08-18,2025-10-28
+SUG-20681,Hobart Living B,Multi-Residential,TAS,Quoted,Southern Cross Developments Pty Ltd,1761.0,119727.0,2023-09-12,
+SUG-20682,Liverpool Cold Store B,Industrial & Cinema,NSW,Lost,Highline Projects Pty Ltd,554.0,37659.0,2023-09-15,
+SUG-20683,Dandenong Living Stage 2,Multi-Residential,VIC,Won,Lakeside Projects Pty Ltd,1861.0,126579.0,2025-04-04,2025-05-26
+SUG-20684,Cremorne Apartments,Multi-Residential,VIC,Lost,Lakeside Developments Pty Ltd,1893.0,128695.0,2024-12-28,
+SUG-20685,Hobart Build to Rent Stage 2,Multi-Residential,TAS,Lost,Ironbark Developments Pty Ltd,2265.0,154009.0,2025-03-03,
+SUG-20686,Southport Warehouse Fitout,Industrial & Cinema,QLD,Lost,Kingsway Projects Pty Ltd,851.0,57851.0,2026-07-18,
+SUG-20687,Brunswick Substation Stage 2,Tunnels & Infrastructure,VIC,Lead,Ridgeway Developments Pty Ltd,5035.0,342368.0,2026-06-24,
+SUG-20688,Docklands Build to Rent Stage 2,Multi-Residential,VIC,Won,Ironbark Developments Pty Ltd,798.0,54251.0,2026-02-28,2026-07-13
+SUG-20689,Brunswick Health Hub,High-Rise & Commercial,VIC,Quoted,Silverleaf Developments Pty Ltd,1054.0,71678.0,2026-03-12,
+SUG-20690,Mascot Rail Station Services Stage 2,Tunnels & Infrastructure,NSW,Won,Pinnacle Projects Pty Ltd,5884.0,400106.0,2023-12-20,2024-03-17
+SUG-20691,Bowden Living,Multi-Residential,SA,Lost,Southern Cross Developments Pty Ltd,563.0,38272.0,2025-12-12,
+SUG-20692,Docklands Living Stage 2,Multi-Residential,VIC,Won,Arrow Constructions Pty Ltd,2022.0,137526.0,2026-02-06,2026-05-17
+SUG-20693,Dandenong Terraces Stage 2,Multi-Residential,VIC,Lost,Eastside Developments Pty Ltd,2482.0,168758.0,2025-10-10,
+SUG-20694,Southport Ventilation Building,Tunnels & Infrastructure,QLD,Quoted,Hillcrest Developments Pty Ltd,5688.0,386762.0,2026-03-11,
+SUG-20695,Werribee Cinema,Industrial & Cinema,VIC,Lead,Lakeside Developments Pty Ltd,981.0,66692.0,2026-03-04,
+SUG-20696,Chatswood Build to Rent Stage 2,Multi-Residential,NSW,Won,Southern Cross Constructions Pty Ltd,898.0,61092.0,2024-11-04,2025-02-12
+SUG-20697,Glen Waverley Residences B,Multi-Residential,VIC,Quoted,Arrow Developments Pty Ltd,3829.0,260400.0,2024-01-20,
+SUG-20698,Penrith Build to Rent,Multi-Residential,NSW,Won,Crestline Constructions Pty Ltd,4657.0,316658.0,2023-07-31,2023-11-09
+SUG-20699,Liverpool Apartments,Multi-Residential,NSW,Won,Pinnacle Projects Pty Ltd,2293.0,155946.0,2023-06-06,2023-08-02
+SUG-20700,Glen Waverley Apartments A,Multi-Residential,VIC,Won,Ridgeway Developments Pty Ltd,698.0,47442.0,2025-11-05,2026-03-11
+SUG-20701,Ringwood Living Stage 2,Multi-Residential,VIC,Won,Silverleaf Developments Pty Ltd,5773.0,392573.0,2024-11-19,2024-12-13
+SUG-20702,Ringwood Logistics Centre,Industrial & Cinema,VIC,Won,Foundry Building Group Pty Ltd,2076.0,141189.0,2025-08-22,2025-10-18
+SUG-20703,Liverpool Health Hub,High-Rise & Commercial,NSW,Won,Foundry Developments Pty Ltd,2660.0,180886.0,2025-11-12,2026-01-31
+SUG-20704,Southbank Build to Rent Stage 2,Multi-Residential,VIC,Won,Southern Cross Developments Pty Ltd,1034.0,70327.0,2026-07-06,2026-07-28
+SUG-20705,Fortitude Valley Ventilation Building Stage 2,Tunnels & Infrastructure,QLD,Quoted,Kingsway Building Group Pty Ltd,1287.0,87496.0,2023-08-02,
+SUG-20706,Fortitude Valley Rail Station Services B,Tunnels & Infrastructure,QLD,Won,Hillcrest Developments Pty Ltd,1073.0,72930.0,2025-10-07,2025-10-28
+SUG-20707,Parramatta Ventilation Building B,Tunnels & Infrastructure,NSW,Lost,Crestline Constructions Pty Ltd,1261.0,85734.0,2023-09-04,
+SUG-20708,Richmond Tower,High-Rise & Commercial,VIC,Lost,Lakeside Developments Pty Ltd,7565.0,514445.0,2024-03-22,
+SUG-20709,Liverpool Cinema A,Industrial & Cinema,NSW,Won,Metro Developments Pty Ltd,2545.0,173027.0,2025-03-18,2025-05-29
+SUG-20710,Werribee Tunnel Package A,Tunnels & Infrastructure,VIC,Won,Eastside Developments Pty Ltd,3121.0,212225.0,2025-12-20,2026-03-29
+SUG-20711,Ringwood Tunnel Package B,Tunnels & Infrastructure,VIC,Lost,Redgum Constructions Pty Ltd,1196.0,81332.0,2026-03-02,
+SUG-20712,Box Hill Terraces Stage 2,Multi-Residential,VIC,Won,Lakeside Developments Pty Ltd,1473.0,100157.0,2024-12-22,2025-04-12
+SUG-20713,Woolloongabba Hotel Stage 2,High-Rise & Commercial,QLD,Won,Kingsway Projects Pty Ltd,1835.0,124754.0,2026-05-01,2026-07-13
+SUG-20714,Doncaster Living,Multi-Residential,VIC,Won,Westpoint Building Group Pty Ltd,3795.0,258071.0,2025-06-21,2025-09-21
+SUG-20715,Rhodes Commercial Centre B,High-Rise & Commercial,NSW,Won,Foundry Developments Pty Ltd,661.0,44970.0,2025-05-17,2025-08-16
+SUG-20716,Parramatta Build to Rent,Multi-Residential,NSW,Quoted,Highline Projects Pty Ltd,674.0,45833.0,2026-06-29,
+SUG-20717,Doncaster Residences B,Multi-Residential,VIC,Won,Ridgeway Developments Pty Ltd,1558.0,105939.0,2025-06-21,2025-10-02
+SUG-20718,Broadbeach Commercial Centre B,High-Rise & Commercial,QLD,Lost,Kingsway Projects Pty Ltd,1223.0,83140.0,2026-05-10,
+SUG-20719,Box Hill Terraces,Multi-Residential,VIC,Won,Arrow Developments Pty Ltd,3328.0,226293.0,2026-03-03,2026-04-28
+SUG-20720,Bowden Cold Store,Industrial & Cinema,SA,Lost,Foundry Building Group Pty Ltd,719.0,48907.0,2024-01-11,
+SUG-20721,Richmond Apartments A,Multi-Residential,VIC,Won,Silverleaf Developments Pty Ltd,1737.0,118106.0,2023-09-29,2024-01-09
+SUG-20722,Rhodes Tower B,High-Rise & Commercial,NSW,Lead,Fairview Developments Pty Ltd,1792.0,121850.0,2025-11-13,
+SUG-20723,Southbank Apartments A,Multi-Residential,VIC,Lead,Stonebridge Projects Pty Ltd,460.0,31283.0,2025-04-22,
+SUG-20724,Dandenong Rail Station Services Stage 2,Tunnels & Infrastructure,VIC,Lead,Stonebridge Projects Pty Ltd,2972.0,202097.0,2025-09-04,
+SUG-20725,Dandenong Apartments B,Multi-Residential,VIC,Won,Ridgeway Developments Pty Ltd,2523.0,171595.0,2024-01-21,2024-02-23
+SUG-20726,Box Hill Build to Rent A,Multi-Residential,VIC,Won,Redgum Constructions Pty Ltd,821.0,55812.0,2025-10-12,2026-02-26
+SUG-20727,Southport Rail Station Services Stage 2,Tunnels & Infrastructure,QLD,Quoted,Kingsway Building Group Pty Ltd,3398.0,231094.0,2025-01-31,
+SUG-20728,Dandenong Cold Store,Industrial & Cinema,VIC,Lost,Silverleaf Developments Pty Ltd,832.0,56546.0,2025-08-15,
+SUG-20729,Collingwood Hotel,High-Rise & Commercial,VIC,Lost,Arrow Constructions Pty Ltd,2163.0,147093.0,2025-08-26,
+SUG-20730,Wollongong Office Tower B,High-Rise & Commercial,NSW,Won,Foundry Developments Pty Ltd,796.0,54106.0,2023-05-10,2023-07-11
+SUG-20731,Wollongong Cinema,Industrial & Cinema,NSW,Won,Southern Cross Constructions Pty Ltd,3330.0,226472.0,2023-06-22,2023-09-17
+SUG-20732,Footscray Tower A,High-Rise & Commercial,VIC,Won,Ironbark Developments Pty Ltd,1152.0,78327.0,2024-06-22,2024-11-02
+SUG-20733,Footscray Data Hall B,Industrial & Cinema,VIC,Won,Westpoint Building Group Pty Ltd,2093.0,142341.0,2025-06-01,2025-08-20
+SUG-20734,Broadbeach Living Stage 2,Multi-Residential,QLD,Quoted,Kingsway Projects Pty Ltd,2449.0,166530.0,2024-09-19,
+SUG-20735,Docklands Residences Stage 2,Multi-Residential,VIC,Won,Redgum Constructions Pty Ltd,1458.0,99142.0,2023-07-05,2023-09-20
+SUG-20736,Mascot Tunnel Package,Tunnels & Infrastructure,NSW,Won,Crestline Developments Pty Ltd,3735.0,253961.0,2025-02-07,2025-05-31
+SUG-20737,Mascot Rail Station Services,Tunnels & Infrastructure,NSW,Won,Metro Developments Pty Ltd,1068.0,72601.0,2025-01-21,2025-04-06
+SUG-20738,Southbank Commercial Centre,High-Rise & Commercial,VIC,Quoted,Ironbark Developments Pty Ltd,5462.0,371447.0,2023-05-19,
+SUG-20739,Werribee Ventilation Building,Tunnels & Infrastructure,VIC,Won,Arrow Developments Pty Ltd,1726.0,117364.0,2025-01-30,2025-02-21
+SUG-20740,Zetland Residences B,Multi-Residential,NSW,Lost,Southern Cross Constructions Pty Ltd,1300.0,88409.0,2025-09-18,
+SUG-20741,Chermside Apartments B,Multi-Residential,QLD,Won,Kingsway Building Group Pty Ltd,4344.0,295363.0,2024-03-07,2024-07-04
+SUG-20742,Parramatta Hotel B,High-Rise & Commercial,NSW,Won,Eastside Constructions Pty Ltd,2776.0,188792.0,2024-07-06,2024-07-26
+SUG-20743,Rhodes Tower Stage 2,High-Rise & Commercial,NSW,Lost,Southern Cross Constructions Pty Ltd,2194.0,149203.0,2023-11-23,
+SUG-20744,Macquarie Park Build to Rent,Multi-Residential,NSW,Quoted,Metro Developments Pty Ltd,3418.0,232398.0,2023-10-09,
+SUG-20745,Dandenong Hotel,High-Rise & Commercial,VIC,Won,Southern Cross Developments Pty Ltd,650.0,44179.0,2026-04-12,2026-08-05
+SUG-20746,Zetland Hotel A,High-Rise & Commercial,NSW,Won,Foundry Developments Pty Ltd,2312.0,157202.0,2026-04-06,2026-08-22
+SUG-20747,Newstead Build to Rent Stage 2,Multi-Residential,QLD,Won,Kingsway Building Group Pty Ltd,593.0,40291.0,2026-06-25,2026-09-29
+SUG-20748,Dandenong Commercial Centre A,High-Rise & Commercial,VIC,Won,Foundry Building Group Pty Ltd,3245.0,220639.0,2025-01-28,2025-05-28
+SUG-20749,Hobart Commercial Centre,High-Rise & Commercial,TAS,Quoted,Riverbend Constructions Pty Ltd,486.0,33038.0,2026-06-27,
+SUG-20750,Collingwood Office Tower,High-Rise & Commercial,VIC,Won,Arrow Developments Pty Ltd,3020.0,205331.0,2025-06-05,2025-07-17
+SUG-20751,Woolloongabba Living B,Multi-Residential,QLD,Won,Kingsway Building Group Pty Ltd,6047.0,411218.0,2026-05-15,2026-06-20
+SUG-20752,Glen Waverley Tunnel Package,Tunnels & Infrastructure,VIC,Quoted,Arrow Developments Pty Ltd,2435.0,165564.0,2026-07-20,
+SUG-20753,Box Hill Warehouse Fitout B,Industrial & Cinema,VIC,Lost,Ironbark Developments Pty Ltd,1061.0,72177.0,2023-08-28,
+SUG-20754,Ryde Substation A,Tunnels & Infrastructure,NSW,Won,Crestline Developments Pty Ltd,1724.0,117232.0,2025-10-23,2025-12-10
+SUG-20755,Wollongong Terraces,Multi-Residential,NSW,Lost,Crestline Constructions Pty Ltd,1027.0,69859.0,2026-05-06,
+SUG-20756,Newstead Living A,Multi-Residential,QLD,Lead,Hillcrest Developments Pty Ltd,2653.0,180424.0,2024-06-11,
+SUG-20757,Mascot Commercial Centre A,High-Rise & Commercial,NSW,Quoted,Crestline Developments Pty Ltd,1274.0,86654.0,2024-04-11,
+SUG-20758,Ringwood Residences Stage 2,Multi-Residential,VIC,Quoted,Arrow Developments Pty Ltd,864.0,58762.0,2026-03-14,
+SUG-20759,Broadbeach Hotel Stage 2,High-Rise & Commercial,QLD,Quoted,Kingsway Projects Pty Ltd,1918.0,130403.0,2024-05-14,
+SUG-20760,Richmond Hotel B,High-Rise & Commercial,VIC,Quoted,Silverleaf Developments Pty Ltd,1788.0,121569.0,2025-10-08,
+SUG-20761,Werribee Office Tower,High-Rise & Commercial,VIC,Quoted,Arrow Developments Pty Ltd,902.0,61357.0,2024-07-13,
+SUG-20762,Doncaster Ventilation Building Stage 2,Tunnels & Infrastructure,VIC,Won,Redgum Constructions Pty Ltd,6452.0,438725.0,2024-01-11,2024-05-29
+SUG-20763,Chermside Hotel Stage 2,High-Rise & Commercial,QLD,Won,Kingsway Projects Pty Ltd,2382.0,161951.0,2024-02-16,2024-03-11
+SUG-20764,Chermside Ventilation Building Stage 2,Tunnels & Infrastructure,QLD,Lead,Kingsway Building Group Pty Ltd,768.0,52215.0,2026-09-02,
+SUG-20765,Penrith Terraces A,Multi-Residential,NSW,Lost,Eastside Constructions Pty Ltd,1888.0,128398.0,2026-04-21,
+SUG-20766,Penrith Build to Rent Stage 2,Multi-Residential,NSW,Won,Highline Projects Pty Ltd,1343.0,91347.0,2025-06-06,2025-10-23
+SUG-20767,Preston Apartments Stage 2,Multi-Residential,VIC,Won,Silverleaf Developments Pty Ltd,1265.0,86048.0,2023-09-27,2024-01-14
+SUG-20768,Brunswick Office Tower Stage 2,High-Rise & Commercial,VIC,Quoted,Foundry Building Group Pty Ltd,3918.0,266441.0,2025-09-21,
+SUG-20769,Hobart Apartments,Multi-Residential,TAS,Won,Ridgeway Developments Pty Ltd,7331.0,498491.0,2026-04-26,2026-05-29
+SUG-20770,Broadbeach Build to Rent,Multi-Residential,QLD,Quoted,Riverbend Constructions Pty Ltd,1540.0,104688.0,2025-03-28,
+SUG-20771,Doncaster Logistics Centre B,Industrial & Cinema,VIC,Lost,Foundry Building Group Pty Ltd,2079.0,141367.0,2024-09-16,
+SUG-20772,Fortitude Valley Terraces A,Multi-Residential,QLD,Won,Kingsway Building Group Pty Ltd,580.0,39440.0,2024-04-14,2024-06-02
+SUG-20773,Southport Residences,Multi-Residential,QLD,Lost,Kingsway Projects Pty Ltd,579.0,39340.0,2024-08-13,
+SUG-20774,Rhodes Substation B,Tunnels & Infrastructure,NSW,Lead,Crestline Constructions Pty Ltd,2064.0,140332.0,2024-11-07,
+SUG-20775,Preston Health Hub Stage 2,High-Rise & Commercial,VIC,Won,Ironbark Developments Pty Ltd,1411.0,95949.0,2024-12-11,2025-01-06
+SUG-20776,Southport Build to Rent Stage 2,Multi-Residential,QLD,Lead,Kingsway Projects Pty Ltd,1492.0,101485.0,2025-03-28,
+SUG-20777,Macquarie Park Data Hall,Industrial & Cinema,NSW,Won,Metro Developments Pty Ltd,1375.0,93490.0,2023-05-17,2023-07-27
+SUG-20778,Adelaide Office Tower,High-Rise & Commercial,SA,Won,Silverleaf Developments Pty Ltd,2013.0,136853.0,2024-12-31,2025-02-06
+SUG-20779,Toowong Substation,Tunnels & Infrastructure,QLD,Lead,Riverbend Constructions Pty Ltd,931.0,63302.0,2025-07-14,
+SUG-20780,Dandenong Terraces,Multi-Residential,VIC,Won,Arrow Constructions Pty Ltd,3065.0,208389.0,2023-05-26,2023-08-29
+SUG-20781,Rhodes Living,Multi-Residential,NSW,Won,Fairview Developments Pty Ltd,846.0,57542.0,2026-08-06,2026-09-22
+SUG-20782,Mascot Hotel,High-Rise & Commercial,NSW,Lost,Fairview Developments Pty Ltd,675.0,45917.0,2024-03-12,
+SUG-20783,Newstead Logistics Centre,Industrial & Cinema,QLD,Lost,Hillcrest Developments Pty Ltd,1596.0,108561.0,2026-05-11,
+SUG-20784,Docklands Substation,Tunnels & Infrastructure,VIC,Lead,Southern Cross Developments Pty Ltd,1773.0,120563.0,2025-05-26,
+SUG-20785,Mascot Build to Rent,Multi-Residential,NSW,Won,Pinnacle Projects Pty Ltd,1317.0,89583.0,2025-06-18,2025-10-12
+SUG-20786,Toowong Build to Rent,Multi-Residential,QLD,Won,Riverbend Constructions Pty Ltd,3496.0,237731.0,2026-02-25,2026-06-12
+SUG-20787,Broadbeach Build to Rent B,Multi-Residential,QLD,Won,Kingsway Building Group Pty Ltd,554.0,37690.0,2026-02-22,2026-05-03
+SUG-20788,Chermside Terraces,Multi-Residential,QLD,Lost,Hillcrest Developments Pty Ltd,637.0,43297.0,2025-07-03,
+SUG-20789,Footscray Hotel Stage 2,High-Rise & Commercial,VIC,Won,Ridgeway Developments Pty Ltd,1933.0,131410.0,2026-03-03,2026-05-28
+SUG-20790,Preston Rail Station Services,Tunnels & Infrastructure,VIC,Quoted,Silverleaf Developments Pty Ltd,2026.0,137743.0,2025-03-18,
+SUG-20791,Adelaide Warehouse Fitout,Industrial & Cinema,SA,Won,Arrow Developments Pty Ltd,1916.0,130313.0,2024-08-12,2024-11-02
+SUG-20792,Rhodes Rail Station Services B,Tunnels & Infrastructure,NSW,Won,Metro Developments Pty Ltd,4108.0,279375.0,2026-03-09,2026-04-18
+SUG-20793,Glen Waverley Residences A,Multi-Residential,VIC,Won,Ironbark Developments Pty Ltd,2390.0,162498.0,2024-05-19,2024-08-31
+SUG-20794,Werribee Warehouse Fitout,Industrial & Cinema,VIC,Quoted,Westpoint Building Group Pty Ltd,1663.0,113056.0,2026-01-13,
+SUG-20795,Zetland Apartments Stage 2,Multi-Residential,NSW,Lost,Fairview Developments Pty Ltd,2932.0,199386.0,2023-11-08,
+SUG-20796,Doncaster Commercial Centre Stage 2,High-Rise & Commercial,VIC,Lost,Ridgeway Developments Pty Ltd,1806.0,122778.0,2025-05-24,
+SUG-20797,Penrith Living Stage 2,Multi-Residential,NSW,Won,Eastside Constructions Pty Ltd,1204.0,81838.0,2026-04-22,2026-07-21
+SUG-20798,Ryde Terraces,Multi-Residential,NSW,Won,Crestline Developments Pty Ltd,2686.0,182661.0,2025-11-28,2025-12-20
+SUG-20799,Doncaster Hotel A,High-Rise & Commercial,VIC,Lost,Lakeside Developments Pty Ltd,1048.0,71258.0,2025-05-29,
+SUG-20800,Brunswick Health Hub A,High-Rise & Commercial,VIC,Won,Eastside Developments Pty Ltd,1176.0,79965.0,2024-11-10,2025-03-15
+SUG-20801,Liverpool Health Hub A,High-Rise & Commercial,NSW,Won,Eastside Constructions Pty Ltd,2461.0,167347.0,2025-07-05,2025-10-21
+SUG-20802,Toowong Apartments Stage 2,Multi-Residential,QLD,Won,Kingsway Building Group Pty Ltd,2373.0,161376.0,2024-11-03,2025-01-15
+SUG-20803,Southbank Terraces A,Multi-Residential,VIC,Won,Stonebridge Projects Pty Ltd,395.0,26893.0,2024-12-21,2025-01-12
+SUG-20804,Footscray Ventilation Building,Tunnels & Infrastructure,VIC,Won,Ironbark Developments Pty Ltd,8261.0,561717.0,2024-01-19,2024-04-29
+SUG-20805,Adelaide Health Hub A,High-Rise & Commercial,SA,Won,Eastside Developments Pty Ltd,2169.0,147466.0,2026-03-30,2026-05-13
+SUG-20806,Penrith Health Hub A,High-Rise & Commercial,NSW,Won,Foundry Developments Pty Ltd,925.0,62891.0,2024-12-07,2025-03-31
+SUG-20807,Brunswick Residences Stage 2,Multi-Residential,VIC,Lead,Eastside Developments Pty Ltd,1335.0,90806.0,2023-10-20,
+SUG-20808,Brunswick Living Stage 2,Multi-Residential,VIC,Lead,Arrow Developments Pty Ltd,2564.0,174384.0,2023-09-19,
+SUG-20809,Glen Waverley Living,Multi-Residential,VIC,Won,Southern Cross Developments Pty Ltd,1122.0,76302.0,2023-09-25,2024-01-08
+SUG-20810,Collingwood Office Tower B,High-Rise & Commercial,VIC,Won,Eastside Developments Pty Ltd,1179.0,80199.0,2024-02-08,2024-04-18
+SUG-20811,Mascot Residences A,Multi-Residential,NSW,Won,Metro Developments Pty Ltd,2856.0,194221.0,2024-11-22,2025-03-26
+SUG-20812,Penrith Build to Rent A,Multi-Residential,NSW,Quoted,Pinnacle Projects Pty Ltd,864.0,58755.0,2025-04-29,
+SUG-20813,Zetland Build to Rent B,Multi-Residential,NSW,Won,Pinnacle Projects Pty Ltd,1377.0,93655.0,2023-11-01,2024-01-15
+SUG-20814,Zetland Tower A,High-Rise & Commercial,NSW,Won,Fairview Developments Pty Ltd,1305.0,88719.0,2024-03-19,2024-07-02
+SUG-20815,Footscray Cinema,Industrial & Cinema,VIC,Lost,Southern Cross Developments Pty Ltd,1948.0,132437.0,2025-09-01,
+SUG-20816,Footscray Apartments,Multi-Residential,VIC,Lost,Lakeside Projects Pty Ltd,1094.0,74409.0,2023-07-21,
+SUG-20817,Doncaster Hotel Stage 2,High-Rise & Commercial,VIC,Won,Lakeside Developments Pty Ltd,3840.0,261138.0,2023-12-05,2023-12-31
+SUG-20818,Wollongong Plaza,High-Rise & Commercial,NSW,Lost,Pinnacle Projects Pty Ltd,1108.0,75349.0,2025-07-27,
+SUG-20819,Dandenong Build to Rent,Multi-Residential,VIC,Won,Ironbark Developments Pty Ltd,913.0,62080.0,2025-10-04,2025-11-16
+SUG-20820,Southport Health Hub,High-Rise & Commercial,QLD,Won,Kingsway Projects Pty Ltd,2493.0,169517.0,2026-04-08,2026-08-15
+SUG-20821,Southbank Residences,Multi-Residential,VIC,Won,Eastside Developments Pty Ltd,1593.0,108355.0,2024-08-19,2024-11-05
+SUG-20822,Penrith Cinema Stage 2,Industrial & Cinema,NSW,Won,Southern Cross Constructions Pty Ltd,863.0,58698.0,2025-12-20,2026-04-07
+SUG-20823,Glen Waverley Office Tower,High-Rise & Commercial,VIC,Lead,Redgum Constructions Pty Ltd,966.0,65702.0,2024-11-28,
+SUG-20824,Ryde Build to Rent A,Multi-Residential,NSW,Won,Foundry Developments Pty Ltd,3358.0,228312.0,2023-09-18,2023-10-22
+SUG-20825,Chatswood Living A,Multi-Residential,NSW,Won,Foundry Developments Pty Ltd,2102.0,142961.0,2023-05-18,2023-09-21
+SUG-20826,Chatswood Terraces Stage 2,Multi-Residential,NSW,Lead,Highline Projects Pty Ltd,4144.0,281806.0,2023-12-15,
+SUG-20827,Fortitude Valley Residences B,Multi-Residential,QLD,Won,Kingsway Projects Pty Ltd,5287.0,359483.0,2024-04-11,2024-07-24
+SUG-20828,Cremorne Apartments B,Multi-Residential,VIC,Won,Stonebridge Projects Pty Ltd,3884.0,264126.0,2024-01-13,2024-03-06
+SUG-20829,Rhodes Apartments A,Multi-Residential,NSW,Lost,Crestline Developments Pty Ltd,541.0,36802.0,2024-09-15,
+SUG-20830,Liverpool Living,Multi-Residential,NSW,Won,Foundry Developments Pty Ltd,828.0,56304.0,2024-12-26,2025-03-22
+SUG-20831,Glen Waverley Health Hub,High-Rise & Commercial,VIC,Won,Ridgeway Developments Pty Ltd,987.0,67095.0,2025-01-27,2025-03-30
+SUG-20832,Docklands Tunnel Package A,Tunnels & Infrastructure,VIC,Won,Lakeside Projects Pty Ltd,2757.0,187459.0,2024-02-04,2024-04-25
+SUG-20833,Bowden Hotel,High-Rise & Commercial,SA,Won,Lakeside Projects Pty Ltd,845.0,57441.0,2024-09-05,2025-01-04
+SUG-20834,Preston Hotel,High-Rise & Commercial,VIC,Won,Lakeside Developments Pty Ltd,1698.0,115462.0,2026-06-02,2026-09-20
+SUG-20835,Rhodes Data Hall Stage 2,Industrial & Cinema,NSW,Won,Eastside Constructions Pty Ltd,1685.0,114591.0,2025-06-17,2025-10-04
+SUG-20836,Woolloongabba Logistics Centre Stage 2,Industrial & Cinema,QLD,Lost,Kingsway Building Group Pty Ltd,1001.0,68039.0,2023-06-19,
+SUG-20837,Hobart Tower A,High-Rise & Commercial,TAS,Won,Pinnacle Projects Pty Ltd,1034.0,70295.0,2024-12-19,2025-01-22
+SUG-20838,Doncaster Warehouse Fitout A,Industrial & Cinema,VIC,Won,Eastside Developments Pty Ltd,1082.0,73577.0,2023-05-22,2023-08-16
+SUG-20839,Dandenong Tunnel Package,Tunnels & Infrastructure,VIC,Quoted,Lakeside Developments Pty Ltd,4343.0,295357.0,2024-07-02,
+SUG-20840,Box Hill Commercial Centre,High-Rise & Commercial,VIC,Lost,Arrow Developments Pty Ltd,958.0,65131.0,2023-05-08,
+SUG-20841,Chermside Residences Stage 2,Multi-Residential,QLD,Lost,Riverbend Constructions Pty Ltd,2110.0,143511.0,2023-07-25,
+SUG-20842,Ringwood Plaza B,High-Rise & Commercial,VIC,Quoted,Stonebridge Projects Pty Ltd,791.0,53817.0,2024-09-22,
+SUG-20843,Preston Commercial Centre B,High-Rise & Commercial,VIC,Won,Lakeside Projects Pty Ltd,1989.0,135232.0,2023-10-23,2024-02-25
+SUG-20844,Glen Waverley Apartments,Multi-Residential,VIC,Won,Eastside Developments Pty Ltd,2767.0,188139.0,2025-12-29,2026-04-02
+SUG-20845,Toowong Tower A,High-Rise & Commercial,QLD,Quoted,Kingsway Building Group Pty Ltd,868.0,59051.0,2025-06-13,
+SUG-20846,Doncaster Office Tower,High-Rise & Commercial,VIC,Won,Southern Cross Developments Pty Ltd,645.0,43854.0,2024-07-04,2024-11-04
+SUG-20847,Collingwood Living,Multi-Residential,VIC,Won,Arrow Constructions Pty Ltd,825.0,56096.0,2024-10-14,2025-01-27
+SUG-20848,Richmond Residences B,Multi-Residential,VIC,Lead,Westpoint Building Group Pty Ltd,577.0,39206.0,2023-06-19,
+SUG-20849,Zetland Build to Rent,Multi-Residential,NSW,Quoted,Pinnacle Projects Pty Ltd,1515.0,103027.0,2025-06-08,
+SUG-20850,Southport Rail Station Services B,Tunnels & Infrastructure,QLD,Lost,Kingsway Projects Pty Ltd,2776.0,188760.0,2023-06-22,
+SUG-20851,Southbank Ventilation Building A,Tunnels & Infrastructure,VIC,Won,Eastside Developments Pty Ltd,585.0,39800.0,2024-07-06,2024-09-16
+SUG-20852,Southbank Build to Rent B,Multi-Residential,VIC,Won,Lakeside Projects Pty Ltd,982.0,66795.0,2023-11-25,2024-01-26
+SUG-20853,Zetland Data Hall A,Industrial & Cinema,NSW,Won,Crestline Developments Pty Ltd,788.0,53560.0,2024-06-09,2024-07-02
+SUG-20854,Southport Apartments B,Multi-Residential,QLD,Quoted,Kingsway Building Group Pty Ltd,1266.0,86054.0,2024-11-07,
+SUG-20855,Docklands Tower Stage 2,High-Rise & Commercial,VIC,Won,Stonebridge Projects Pty Ltd,2315.0,157397.0,2024-05-28,2024-07-09
+SUG-20856,Liverpool Tower A,High-Rise & Commercial,NSW,Lead,Fairview Developments Pty Ltd,1059.0,71979.0,2024-08-17,
+SUG-20857,Ryde Build to Rent B,Multi-Residential,NSW,Won,Pinnacle Projects Pty Ltd,783.0,53255.0,2025-10-12,2025-12-28
+SUG-20858,Hobart Health Hub A,High-Rise & Commercial,TAS,Lost,Crestline Developments Pty Ltd,1459.0,99206.0,2025-01-23,
+SUG-20859,Collingwood Hotel B,High-Rise & Commercial,VIC,Lead,Southern Cross Developments Pty Ltd,1614.0,109725.0,2026-08-03,
+SUG-20860,Macquarie Park Office Tower,High-Rise & Commercial,NSW,Won,Crestline Constructions Pty Ltd,2433.0,165446.0,2024-04-09,2024-06-25
+SUG-20861,Glen Waverley Hotel A,High-Rise & Commercial,VIC,Won,Ironbark Developments Pty Ltd,1109.0,75422.0,2025-08-01,2025-09-28
+SUG-20862,Dandenong Tunnel Package Stage 2,Tunnels & Infrastructure,VIC,Lead,Ironbark Developments Pty Ltd,1015.0,69047.0,2023-11-23,
+SUG-20863,Newstead Build to Rent,Multi-Residential,QLD,Won,Kingsway Projects Pty Ltd,2975.0,202302.0,2024-06-08,2024-10-03
+SUG-20864,Southbank Living B,Multi-Residential,VIC,Won,Lakeside Projects Pty Ltd,1728.0,117500.0,2023-06-06,2023-07-22
+SUG-20865,Hobart Residences,Multi-Residential,TAS,Won,Kingsway Projects Pty Ltd,2830.0,192415.0,2025-10-01,2025-11-02
+SUG-20866,Zetland Commercial Centre,High-Rise & Commercial,NSW,Lost,Foundry Developments Pty Ltd,1672.0,113706.0,2025-10-07,
+SUG-20867,Richmond Tower B,High-Rise & Commercial,VIC,Quoted,Silverleaf Developments Pty Ltd,2627.0,178662.0,2026-07-09,
+SUG-20868,Docklands Warehouse Fitout,Industrial & Cinema,VIC,Lost,Westpoint Building Group Pty Ltd,704.0,47848.0,2026-02-06,
+SUG-20869,Robina Commercial Centre B,High-Rise & Commercial,QLD,Won,Kingsway Building Group Pty Ltd,1711.0,116342.0,2023-07-08,2023-09-04
+SUG-20870,Penrith Office Tower A,High-Rise & Commercial,NSW,Won,Eastside Constructions Pty Ltd,2028.0,137924.0,2023-05-20,2023-08-27
+SUG-20871,Penrith Terraces B,Multi-Residential,NSW,Quoted,Eastside Constructions Pty Ltd,300.0,20400.0,2026-08-29,
+SUG-20872,Footscray Residences B,Multi-Residential,VIC,Lost,Lakeside Projects Pty Ltd,2732.0,185758.0,2024-03-25,
+SUG-20873,Dandenong Ventilation Building B,Tunnels & Infrastructure,VIC,Won,Lakeside Developments Pty Ltd,955.0,64967.0,2023-05-11,2023-07-16
+SUG-20874,Werribee Cold Store Stage 2,Industrial & Cinema,VIC,Won,Lakeside Projects Pty Ltd,8184.0,556504.0,2024-01-02,2024-03-04
+SUG-20875,Macquarie Park Apartments A,Multi-Residential,NSW,Quoted,Crestline Developments Pty Ltd,7303.0,496637.0,2024-09-17,
+SUG-20876,Doncaster Tower A,High-Rise & Commercial,VIC,Won,Southern Cross Developments Pty Ltd,2929.0,199181.0,2024-06-21,2024-10-24
+SUG-20877,Chermside Commercial Centre,High-Rise & Commercial,QLD,Won,Kingsway Building Group Pty Ltd,1604.0,109076.0,2026-04-09,2026-06-26
+SUG-20878,Bowden Apartments,Multi-Residential,SA,Quoted,Highline Projects Pty Ltd,1240.0,84349.0,2024-11-27,
+SUG-20879,Chermside Warehouse Fitout,Industrial & Cinema,QLD,Lost,Riverbend Constructions Pty Ltd,1572.0,106897.0,2026-04-28,
+SUG-20880,Cremorne Substation B,Tunnels & Infrastructure,VIC,Won,Silverleaf Developments Pty Ltd,7389.0,502473.0,2024-07-14,2024-08-16
+SUG-20881,Ringwood Living,Multi-Residential,VIC,Quoted,Eastside Developments Pty Ltd,4649.0,316121.0,2025-08-20,
+SUG-20882,Zetland Hotel,High-Rise & Commercial,NSW,Won,Eastside Constructions Pty Ltd,2902.0,197361.0,2025-07-14,2025-09-07
+SUG-20883,Collingwood Tower A,High-Rise & Commercial,VIC,Won,Foundry Building Group Pty Ltd,1661.0,112956.0,2024-10-14,2025-01-22
+SUG-20884,Ryde Substation B,Tunnels & Infrastructure,NSW,Quoted,Pinnacle Projects Pty Ltd,2444.0,166211.0,2025-02-19,
+SUG-20885,Brunswick Residences A,Multi-Residential,VIC,Won,Arrow Developments Pty Ltd,2842.0,193241.0,2023-09-06,2024-01-13
+SUG-20886,Southbank Health Hub A,High-Rise & Commercial,VIC,Won,Stonebridge Projects Pty Ltd,1593.0,108306.0,2025-03-07,2025-04-01
+SUG-20887,Dandenong Apartments Stage 2,Multi-Residential,VIC,Won,Silverleaf Developments Pty Ltd,2413.0,164112.0,2023-12-23,2024-03-16
+SUG-20888,Preston Terraces,Multi-Residential,VIC,Lead,Lakeside Projects Pty Ltd,1530.0,104034.0,2024-07-16,
+SUG-20889,Woolloongabba Data Hall A,Industrial & Cinema,QLD,Lost,Hillcrest Developments Pty Ltd,2598.0,176688.0,2023-10-15,
+SUG-20890,Bowden Tower Stage 2,High-Rise & Commercial,SA,Lost,Lakeside Projects Pty Ltd,707.0,48091.0,2026-08-25,
+SUG-20891,Wollongong Data Hall,Industrial & Cinema,NSW,Lead,Crestline Developments Pty Ltd,975.0,66305.0,2025-09-20,
+SUG-20892,Ringwood Hotel B,High-Rise & Commercial,VIC,Won,Stonebridge Projects Pty Ltd,2075.0,141092.0,2024-11-22,2025-01-08
+SUG-20893,Glen Waverley Tunnel Package Stage 2,Tunnels & Infrastructure,VIC,Quoted,Lakeside Projects Pty Ltd,1842.0,125270.0,2023-05-14,
+SUG-20894,Box Hill Living Stage 2,Multi-Residential,VIC,Lead,Southern Cross Developments Pty Ltd,670.0,45531.0,2024-01-27,
+SUG-20895,Penrith Tower A,High-Rise & Commercial,NSW,Lost,Southern Cross Constructions Pty Ltd,1401.0,95271.0,2025-10-14,
+SUG-20896,Brunswick Residences,Multi-Residential,VIC,Quoted,Eastside Developments Pty Ltd,410.0,27897.0,2026-07-04,
+SUG-20897,Collingwood Terraces,Multi-Residential,VIC,Won,Westpoint Building Group Pty Ltd,492.0,33448.0,2024-02-08,2024-03-14
+SUG-20898,Docklands Tunnel Package,Tunnels & Infrastructure,VIC,Won,Eastside Developments Pty Ltd,2233.0,151815.0,2025-03-19,2025-04-26
+SUG-20899,Parramatta Cold Store,Industrial & Cinema,NSW,Won,Crestline Constructions Pty Ltd,2445.0,166266.0,2024-03-31,2024-06-06
+SUG-20900,Glen Waverley Residences,Multi-Residential,VIC,Won,Lakeside Developments Pty Ltd,742.0,50423.0,2025-01-28,2025-06-11
+SUG-20901,Woolloongabba Terraces,Multi-Residential,QLD,Won,Kingsway Building Group Pty Ltd,2375.0,161528.0,2024-07-02,2024-09-19
+SUG-20902,Toowong Commercial Centre,High-Rise & Commercial,QLD,Won,Kingsway Building Group Pty Ltd,4797.0,326192.0,2024-06-26,2024-11-09
+SUG-20903,Hobart Living,Multi-Residential,TAS,Quoted,Southern Cross Constructions Pty Ltd,1997.0,135810.0,2025-08-08,
+SUG-20904,Docklands Apartments B,Multi-Residential,VIC,Lead,Arrow Constructions Pty Ltd,1319.0,89712.0,2026-06-27,
+SUG-20905,Ringwood Warehouse Fitout,Industrial & Cinema,VIC,Lost,Arrow Constructions Pty Ltd,1836.0,124851.0,2024-08-26,
+SUG-20906,Cremorne Build to Rent Stage 2,Multi-Residential,VIC,Won,Stonebridge Projects Pty Ltd,5816.0,395519.0,2025-08-13,2025-10-17
+SUG-20907,Collingwood Residences Stage 2,Multi-Residential,VIC,Lost,Southern Cross Developments Pty Ltd,317.0,21529.0,2025-04-05,
+SUG-20908,Penrith Residences B,Multi-Residential,NSW,Won,Southern Cross Constructions Pty Ltd,948.0,64472.0,2025-04-24,2025-06-11
+SUG-20909,Macquarie Park Tower,High-Rise & Commercial,NSW,Lead,Fairview Developments Pty Ltd,964.0,65583.0,2024-03-01,
+SUG-20910,Docklands Rail Station Services,Tunnels & Infrastructure,VIC,Won,Redgum Constructions Pty Ltd,866.0,58909.0,2024-10-06,2025-02-18
+SUG-20911,Liverpool Plaza,High-Rise & Commercial,NSW,Won,Southern Cross Constructions Pty Ltd,1629.0,110780.0,2023-09-15,2023-11-02
+SUG-20912,Docklands Residences,Multi-Residential,VIC,Quoted,Lakeside Developments Pty Ltd,4822.0,327909.0,2026-06-13,
+SUG-20913,Parramatta Health Hub A,High-Rise & Commercial,NSW,Won,Metro Developments Pty Ltd,1072.0,72896.0,2024-02-02,2024-03-28
+SUG-20914,Fortitude Valley Data Hall,Industrial & Cinema,QLD,Lost,Kingsway Building Group Pty Ltd,854.0,58088.0,2024-05-23,
+SUG-20915,Brunswick Commercial Centre,High-Rise & Commercial,VIC,Quoted,Lakeside Developments Pty Ltd,882.0,59957.0,2026-01-23,
+SUG-20916,Rhodes Hotel B,High-Rise & Commercial,NSW,Quoted,Highline Projects Pty Ltd,1510.0,102689.0,2026-07-01,
+SUG-20917,Box Hill Terraces A,Multi-Residential,VIC,Quoted,Redgum Constructions Pty Ltd,911.0,61947.0,2025-05-27,
+SUG-20918,Rhodes Commercial Centre,High-Rise & Commercial,NSW,Lead,Highline Projects Pty Ltd,1939.0,131846.0,2023-11-24,
+SUG-20919,Collingwood Cinema Stage 2,Industrial & Cinema,VIC,Lost,Southern Cross Developments Pty Ltd,1821.0,123824.0,2023-06-05,
+SUG-20920,Cremorne Residences B,Multi-Residential,VIC,Lost,Lakeside Developments Pty Ltd,596.0,40514.0,2025-06-09,
+SUG-20921,Werribee Logistics Centre B,Industrial & Cinema,VIC,Lost,Ridgeway Developments Pty Ltd,2009.0,136609.0,2024-05-15,
+SUG-20922,Broadbeach Commercial Centre Stage 2,High-Rise & Commercial,QLD,Quoted,Kingsway Building Group Pty Ltd,1254.0,85259.0,2026-06-07,
+SUG-20923,Dandenong Apartments,Multi-Residential,VIC,Won,Westpoint Building Group Pty Ltd,1570.0,106775.0,2026-01-18,2026-04-01
+SUG-20924,Ryde Build to Rent,Multi-Residential,NSW,Won,Metro Developments Pty Ltd,1537.0,104504.0,2024-03-18,2024-04-25
+SUG-20925,Doncaster Residences A,Multi-Residential,VIC,Won,Silverleaf Developments Pty Ltd,2434.0,165539.0,2023-10-10,2024-01-02
+SUG-20926,Cremorne Tunnel Package A,Tunnels & Infrastructure,VIC,Lost,Arrow Constructions Pty Ltd,2774.0,188630.0,2025-11-06,
+SUG-20927,Toowong Office Tower B,High-Rise & Commercial,QLD,Won,Kingsway Projects Pty Ltd,1304.0,88656.0,2025-10-14,2025-12-23
+SUG-20928,Ringwood Warehouse Fitout A,Industrial & Cinema,VIC,Won,Arrow Constructions Pty Ltd,921.0,62608.0,2025-04-26,2025-07-29
+SUG-20929,Parramatta Hotel A,High-Rise & Commercial,NSW,Quoted,Pinnacle Projects Pty Ltd,1147.0,77989.0,2023-11-15,
+SUG-20930,Liverpool Data Hall B,Industrial & Cinema,NSW,Lost,Eastside Constructions Pty Ltd,836.0,56818.0,2024-05-15,
+SUG-20931,Penrith Hotel,High-Rise & Commercial,NSW,Quoted,Foundry Developments Pty Ltd,1223.0,83156.0,2023-07-29,
+SUG-20932,Broadbeach Ventilation Building B,Tunnels & Infrastructure,QLD,Won,Kingsway Building Group Pty Ltd,1522.0,103491.0,2026-04-17,2026-08-09
+SUG-20933,Cremorne Commercial Centre Stage 2,High-Rise & Commercial,VIC,Won,Silverleaf Developments Pty Ltd,3195.0,217289.0,2024-07-02,2024-09-18
+SUG-20934,Doncaster Tunnel Package A,Tunnels & Infrastructure,VIC,Won,Stonebridge Projects Pty Ltd,727.0,49441.0,2023-05-30,2023-07-10
+SUG-20935,Chermside Cinema,Industrial & Cinema,QLD,Won,Kingsway Building Group Pty Ltd,1333.0,90638.0,2024-03-02,2024-06-28
+SUG-20936,Chatswood Hotel B,High-Rise & Commercial,NSW,Won,Pinnacle Projects Pty Ltd,2729.0,185585.0,2024-09-22,2024-11-17
+SUG-20937,Footscray Health Hub A,High-Rise & Commercial,VIC,Quoted,Ridgeway Developments Pty Ltd,3085.0,209795.0,2024-05-01,
+SUG-20938,Penrith Apartments B,Multi-Residential,NSW,Won,Southern Cross Constructions Pty Ltd,5924.0,402854.0,2023-08-14,2023-11-19
+SUG-20939,Wollongong Apartments,Multi-Residential,NSW,Won,Pinnacle Projects Pty Ltd,771.0,52443.0,2026-04-08,2026-07-11
+SUG-20940,Broadbeach Living,Multi-Residential,QLD,Won,Riverbend Constructions Pty Ltd,2439.0,165854.0,2025-02-20,2025-04-20
+SUG-20941,Chatswood Cinema,Industrial & Cinema,NSW,Lead,Southern Cross Constructions Pty Ltd,317.0,21566.0,2024-08-20,
+SUG-20942,Footscray Build to Rent Stage 2,Multi-Residential,VIC,Quoted,Silverleaf Developments Pty Ltd,957.0,65053.0,2025-09-17,
+SUG-20943,Macquarie Park Tunnel Package Stage 2,Tunnels & Infrastructure,NSW,Won,Crestline Developments Pty Ltd,1465.0,99604.0,2025-08-28,2025-12-19
+SUG-20944,Docklands Tunnel Package B,Tunnels & Infrastructure,VIC,Won,Stonebridge Projects Pty Ltd,2184.0,148528.0,2023-11-03,2024-01-19
+SUG-20945,Doncaster Plaza Stage 2,High-Rise & Commercial,VIC,Won,Silverleaf Developments Pty Ltd,790.0,53711.0,2024-01-19,2024-03-08
+SUG-20946,Mascot Residences Stage 2,Multi-Residential,NSW,Won,Highline Projects Pty Ltd,1810.0,123097.0,2026-04-29,2026-07-20
+SUG-20947,Robina Cinema,Industrial & Cinema,QLD,Lead,Kingsway Building Group Pty Ltd,1919.0,130474.0,2024-11-20,
+SUG-20948,Collingwood Apartments B,Multi-Residential,VIC,Quoted,Redgum Constructions Pty Ltd,1518.0,103227.0,2026-08-30,
+SUG-20949,Brunswick Residences B,Multi-Residential,VIC,Lost,Southern Cross Developments Pty Ltd,2550.0,173422.0,2025-11-19,
+SUG-20950,Broadbeach Tower Stage 2,High-Rise & Commercial,QLD,Lead,Kingsway Projects Pty Ltd,4944.0,336190.0,2024-07-04,
+SUG-20951,Penrith Residences Stage 2,Multi-Residential,NSW,Won,Crestline Developments Pty Ltd,2254.0,153245.0,2023-08-23,2024-01-01
+SUG-20952,Southbank Apartments,Multi-Residential,VIC,Lost,Redgum Constructions Pty Ltd,601.0,40862.0,2023-11-05,
+SUG-20953,Preston Hotel Stage 2,High-Rise & Commercial,VIC,Won,Arrow Constructions Pty Ltd,724.0,49242.0,2025-12-01,2026-01-27
+SUG-20954,Mascot Residences,Multi-Residential,NSW,Lead,Fairview Developments Pty Ltd,1407.0,95680.0,2023-06-11,
+SUG-20955,Box Hill Rail Station Services,Tunnels & Infrastructure,VIC,Won,Ironbark Developments Pty Ltd,2018.0,137211.0,2023-08-18,2023-10-09
+SUG-20956,Newstead Warehouse Fitout,Industrial & Cinema,QLD,Won,Kingsway Building Group Pty Ltd,2454.0,166855.0,2026-01-21,2026-05-14
+SUG-20957,Werribee Office Tower B,High-Rise & Commercial,VIC,Won,Ridgeway Developments Pty Ltd,584.0,39706.0,2026-02-23,2026-04-04
+SUG-20958,Footscray Apartments A,Multi-Residential,VIC,Won,Arrow Constructions Pty Ltd,2341.0,159216.0,2025-07-04,2025-07-27
+SUG-20959,Chermside Hotel B,High-Rise & Commercial,QLD,Lost,Hillcrest Developments Pty Ltd,1599.0,108724.0,2024-01-15,
+SUG-20960,Robina Tower A,High-Rise & Commercial,QLD,Won,Kingsway Projects Pty Ltd,1830.0,124427.0,2026-07-03,2026-09-08
+SUG-20961,Adelaide Living,Multi-Residential,SA,Won,Arrow Constructions Pty Ltd,1415.0,96213.0,2023-09-26,2023-11-25
+SUG-20962,Docklands Cinema,Industrial & Cinema,VIC,Quoted,Southern Cross Developments Pty Ltd,1139.0,77476.0,2025-08-01,
+SUG-20963,Liverpool Build to Rent B,Multi-Residential,NSW,Lead,Highline Projects Pty Ltd,921.0,62609.0,2023-06-20,
+SUG-20964,Bowden Tower,High-Rise & Commercial,SA,Lost,Arrow Constructions Pty Ltd,2603.0,177012.0,2024-12-05,
+SUG-20965,Box Hill Living,Multi-Residential,VIC,Won,Redgum Constructions Pty Ltd,566.0,38459.0,2023-11-30,2024-02-23
+SUG-20966,Macquarie Park Residences Stage 2,Multi-Residential,NSW,Won,Pinnacle Projects Pty Ltd,1934.0,131492.0,2025-03-26,2025-07-06
+SUG-20967,Ryde Build to Rent Stage 2,Multi-Residential,NSW,Won,Crestline Constructions Pty Ltd,3103.0,211038.0,2024-10-23,2024-12-19
+SUG-20968,Zetland Apartments A,Multi-Residential,NSW,Lead,Southern Cross Constructions Pty Ltd,1745.0,118680.0,2026-03-07,
+SUG-20969,Penrith Residences,Multi-Residential,NSW,Won,Metro Developments Pty Ltd,2270.0,154345.0,2023-09-29,2023-11-21
+SUG-20970,Chatswood Commercial Centre,High-Rise & Commercial,NSW,Won,Pinnacle Projects Pty Ltd,4833.0,328617.0,2025-05-04,2025-08-01
+SUG-20971,Parramatta Apartments A,Multi-Residential,NSW,Won,Fairview Developments Pty Ltd,1246.0,84710.0,2023-06-03,2023-10-12
+SUG-20972,Rhodes Residences A,Multi-Residential,NSW,Won,Fairview Developments Pty Ltd,2985.0,202951.0,2023-12-20,2024-02-04
+SUG-20973,Broadbeach Plaza A,High-Rise & Commercial,QLD,Won,Kingsway Building Group Pty Ltd,683.0,46466.0,2024-07-22,2024-10-24
+SUG-20974,Dandenong Residences A,Multi-Residential,VIC,Lost,Arrow Constructions Pty Ltd,3467.0,235789.0,2025-04-18,
+SUG-20975,Adelaide Data Hall Stage 2,Industrial & Cinema,SA,Won,Pinnacle Projects Pty Ltd,1833.0,124625.0,2025-08-15,2025-09-18
+SUG-20976,Wollongong Tower,High-Rise & Commercial,NSW,Won,Foundry Developments Pty Ltd,574.0,39026.0,2025-04-07,2025-05-25
+SUG-20977,Box Hill Apartments Stage 2,Multi-Residential,VIC,Won,Lakeside Developments Pty Ltd,1086.0,73874.0,2024-11-09,2025-01-18
+SUG-20978,Robina Apartments,Multi-Residential,QLD,Lost,Riverbend Constructions Pty Ltd,1583.0,107657.0,2024-09-01,
+SUG-20979,Adelaide Apartments,Multi-Residential,SA,Quoted,Ridgeway Developments Pty Ltd,1720.0,116965.0,2024-11-21,
+SUG-20980,Liverpool Terraces,Multi-Residential,NSW,Won,Metro Developments Pty Ltd,520.0,35375.0,2023-06-26,2023-10-12
+SUG-20981,Liverpool Hotel B,High-Rise & Commercial,NSW,Lost,Southern Cross Constructions Pty Ltd,1198.0,81450.0,2023-10-14,
+SUG-20982,Penrith Tower B,High-Rise & Commercial,NSW,Won,Metro Developments Pty Ltd,983.0,66821.0,2026-06-05,2026-06-30
+SUG-20983,Fortitude Valley Data Hall A,Industrial & Cinema,QLD,Quoted,Riverbend Constructions Pty Ltd,601.0,40890.0,2025-06-10,
+SUG-20984,Box Hill Living A,Multi-Residential,VIC,Lost,Arrow Developments Pty Ltd,4281.0,291116.0,2024-03-21,
+SUG-20985,Ryde Data Hall B,Industrial & Cinema,NSW,Won,Southern Cross Constructions Pty Ltd,2176.0,147988.0,2023-05-25,2023-07-17
+SUG-20986,Richmond Logistics Centre A,Industrial & Cinema,VIC,Won,Arrow Constructions Pty Ltd,1069.0,72669.0,2025-06-26,2025-10-01
+SUG-20987,Ringwood Residences B,Multi-Residential,VIC,Lead,Redgum Constructions Pty Ltd,874.0,59416.0,2024-07-19,
+SUG-20988,Toowong Office Tower,High-Rise & Commercial,QLD,Won,Kingsway Projects Pty Ltd,3520.0,239393.0,2023-12-01,2024-02-21
+SUG-20989,Toowong Build to Rent A,Multi-Residential,QLD,Won,Riverbend Constructions Pty Ltd,1509.0,102596.0,2025-01-13,2025-03-17
+SUG-20990,Parramatta Living B,Multi-Residential,NSW,Lead,Pinnacle Projects Pty Ltd,801.0,54470.0,2025-05-25,
+SUG-20991,Southbank Commercial Centre B,High-Rise & Commercial,VIC,Lead,Arrow Constructions Pty Ltd,589.0,40024.0,2025-11-08,
+SUG-20992,Penrith Health Hub,High-Rise & Commercial,NSW,Won,Metro Developments Pty Ltd,2893.0,196718.0,2025-07-31,2025-09-17
+SUG-20993,Robina Cold Store B,Industrial & Cinema,QLD,Lost,Riverbend Constructions Pty Ltd,1093.0,74323.0,2025-11-02,
+SUG-20994,Newstead Tower,High-Rise & Commercial,QLD,Won,Hillcrest Developments Pty Ltd,342.0,23272.0,2025-02-03,2025-04-16
+SUG-20995,Brunswick Living A,Multi-Residential,VIC,Lead,Lakeside Developments Pty Ltd,3403.0,231391.0,2025-12-30,
+SUG-20996,Woolloongabba Apartments,Multi-Residential,QLD,Lost,Riverbend Constructions Pty Ltd,1132.0,76969.0,2024-02-18,
+SUG-20997,Penrith Terraces,Multi-Residential,NSW,Lead,Fairview Developments Pty Ltd,1630.0,110871.0,2023-09-18,
+SUG-20998,Chatswood Residences B,Multi-Residential,NSW,Won,Pinnacle Projects Pty Ltd,2090.0,142150.0,2025-09-24,2026-02-10
+SUG-20999,Chatswood Build to Rent,Multi-Residential,NSW,Quoted,Foundry Developments Pty Ltd,2501.0,170077.0,2025-11-28,
+SUG-21000,Newstead Terraces A,Multi-Residential,QLD,Quoted,Kingsway Building Group Pty Ltd,868.0,59011.0,2026-08-18,
+SUG-21001,Doncaster Apartments Stage 2,Multi-Residential,VIC,Won,Arrow Constructions Pty Ltd,1046.0,71136.0,2024-06-15,2024-08-01
+SUG-21002,Richmond Logistics Centre,Industrial & Cinema,VIC,Won,Ironbark Developments Pty Ltd,5807.0,394872.0,2024-07-31,2024-10-24
+SUG-21003,Newstead Rail Station Services Stage 2,Tunnels & Infrastructure,QLD,Won,Hillcrest Developments Pty Ltd,2111.0,143550.0,2023-07-30,2023-10-29
+SUG-21004,Fortitude Valley Terraces,Multi-Residential,QLD,Quoted,Riverbend Constructions Pty Ltd,1265.0,86054.0,2026-03-29,
+SUG-21005,Cremorne Hotel Stage 2,High-Rise & Commercial,VIC,Lead,Silverleaf Developments Pty Ltd,961.0,65365.0,2024-03-05,
+SUG-21006,Preston Commercial Centre Stage 2,High-Rise & Commercial,VIC,Won,Ridgeway Developments Pty Ltd,2355.0,160135.0,2023-11-23,2024-02-21
+SUG-21007,Toowong Residences Stage 2,Multi-Residential,QLD,Lead,Riverbend Constructions Pty Ltd,2168.0,147418.0,2024-09-30,
+SUG-21008,Adelaide Tower,High-Rise & Commercial,SA,Won,Fairview Developments Pty Ltd,3281.0,223091.0,2024-02-16,2024-03-15
+SUG-21009,Box Hill Residences,Multi-Residential,VIC,Won,Arrow Constructions Pty Ltd,726.0,49356.0,2026-04-21,2026-07-09
+UNASSIGNED,Unassigned or unmatched,Unknown,Unknown,Unknown,,,,,

@@ -1,0 +1,8 @@
+supplier_id,supplier_name,origin,material_code
+SUP-01,Pacific Coil Trading,Import,RM-COIL
+SUP-02,Southern Strip Steel,Domestic,RM-COIL
+SUP-03,Bayside Cement Co,Domestic,RM-CEM
+SUP-04,Lite Aggregates Aust,Domestic,RM-AGG
+SUP-05,ChemFoam Industrial,Domestic,RM-FOAM
+SUP-06,SealTech Supplies,Domestic,RM-SEAL
+SUP-07,Eastern Pallet Recyclers,Domestic,RM-PLT

@@ -1,0 +1,73 @@
+account_id,account_name,account_type,state,price_tier
+ACC-1001,Summit Fire Walls Pty Ltd,Installer,QLD,B
+ACC-1002,Riverbend Drywall Services Pty Ltd,Installer,VIC,B
+ACC-1003,Crestline Constructions Pty Ltd,Builder,NSW,B
+ACC-1004,Foundry Building Group Pty Ltd,Builder,VIC,B
+ACC-1005,Foundry Developments Pty Ltd,Builder,NSW,B
+ACC-1006,Hillcrest Developments Pty Ltd,Builder,QLD,C
+ACC-1007,Clearwater Drywall Services Pty Ltd,Installer,VIC,C
+ACC-1008,Redgum Partitions Pty Ltd,Installer,QLD,B
+ACC-1009,Northgate Drywall Services Pty Ltd,Installer,VIC,B
+ACC-1010,Eastside Constructions Pty Ltd,Builder,NSW,B
+ACC-1011,Southern Cross Constructions Pty Ltd,Builder,NSW,B
+ACC-1012,Redgum Constructions Pty Ltd,Builder,VIC,B
+ACC-1013,Pinnacle Linings Pty Ltd,Installer,NSW,B
+ACC-1014,Kingsway Projects Pty Ltd,Builder,QLD,B
+ACC-1015,Metro Developments Pty Ltd,Builder,NSW,A
+ACC-1016,Ridgeway Trade Supplies Pty Ltd,Distributor,VIC,B
+ACC-1017,Keystone Fire Walls Pty Ltd,Installer,VIC,B
+ACC-1018,Hillcrest Ceilings and Walls Pty Ltd,Installer,SA,C
+ACC-1019,Stonebridge Drywall Services Pty Ltd,Installer,VIC,C
+ACC-1020,Stonebridge Projects Pty Ltd,Builder,VIC,C
+ACC-1021,Eastside Drywall Services Pty Ltd,Installer,VIC,A
+ACC-1022,Granite Fire Walls Pty Ltd,Installer,NSW,B
+ACC-1023,Southern Cross Ceilings and Walls Pty Ltd,Installer,QLD,A
+ACC-1024,Ironbark Linings Pty Ltd,Installer,NSW,C
+ACC-1025,Lakeside Linings Pty Ltd,Installer,QLD,B
+ACC-1026,Silverleaf Fire Walls Pty Ltd,Installer,VIC,B
+ACC-1027,Northgate Linings Pty Ltd,Installer,QLD,A
+ACC-1028,Westpoint Fire Walls Pty Ltd,Installer,NSW,B
+ACC-1029,Redgum Ceilings and Walls Pty Ltd,Installer,VIC,C
+ACC-1030,Eastside Developments Pty Ltd,Builder,VIC,A
+ACC-1031,Foundry Drywall Services Pty Ltd,Installer,VIC,B
+ACC-1032,Granite Ceilings and Walls Pty Ltd,Installer,VIC,B
+ACC-1033,Arrow Constructions Pty Ltd,Builder,VIC,C
+ACC-1034,Parkside Drywall Services Pty Ltd,Installer,NSW,C
+ACC-1035,Hillcrest Drywall Services Pty Ltd,Installer,NSW,C
+ACC-1036,Foundry Ceilings and Walls Pty Ltd,Installer,NSW,C
+ACC-1037,Highline Projects Pty Ltd,Builder,NSW,B
+ACC-1038,Arrow Developments Pty Ltd,Builder,VIC,C
+ACC-1039,Silverleaf Developments Pty Ltd,Builder,VIC,B
+ACC-1040,Riverbend Constructions Pty Ltd,Builder,QLD,B
+ACC-1041,Silverleaf Partitions Pty Ltd,Installer,VIC,C
+ACC-1042,Clearwater Partitions Pty Ltd,Installer,VIC,A
+ACC-1043,Pinnacle Interiors Pty Ltd,Installer,NSW,B
+ACC-1044,Lakeside Drywall Services Pty Ltd,Installer,VIC,A
+ACC-1045,Foundry Building Supplies Pty Ltd,Distributor,VIC,A
+ACC-1046,Lakeside Developments Pty Ltd,Builder,VIC,B
+ACC-1047,Kingsway Building Supplies Pty Ltd,Distributor,QLD,A
+ACC-1048,Kingsway Building Group Pty Ltd,Builder,QLD,B
+ACC-1049,Arrow Interiors Pty Ltd,Installer,NSW,C
+ACC-1050,Crestline Developments Pty Ltd,Builder,NSW,C
+ACC-1051,Fairview Developments Pty Ltd,Builder,NSW,B
+ACC-1052,Ridgeway Drywall Services Pty Ltd,Installer,NSW,B
+ACC-1053,Highline Linings Pty Ltd,Installer,NSW,C
+ACC-1054,Southern Cross Developments Pty Ltd,Builder,VIC,C
+ACC-1055,Parkside Partitions Pty Ltd,Installer,VIC,C
+ACC-1056,Southern Cross Fire Walls Pty Ltd,Installer,VIC,B
+ACC-1057,Northgate Interiors Pty Ltd,Installer,QLD,B
+ACC-1058,Ironbark Developments Pty Ltd,Builder,VIC,A
+ACC-1059,Westpoint Building Group Pty Ltd,Builder,VIC,C
+ACC-1060,Ridgeway Developments Pty Ltd,Builder,VIC,B
+ACC-1061,Redgum Drywall Services Pty Ltd,Installer,NSW,B
+ACC-1062,Clearwater Ceilings and Walls Pty Ltd,Installer,SA,B
+ACC-1063,Granite Linings Pty Ltd,Installer,VIC,B
+ACC-1064,Keystone Interiors Pty Ltd,Installer,NSW,B
+ACC-1065,Pinnacle Projects Pty Ltd,Builder,NSW,B
+ACC-1066,Bluestone Ceilings and Walls Pty Ltd,Installer,QLD,C
+ACC-1067,Redgum Linings Pty Ltd,Installer,VIC,A
+ACC-1068,Lakeside Projects Pty Ltd,Builder,VIC,B
+ACC-1069,Redgum Building Supplies Pty Ltd,Distributor,VIC,A
+ACC-1070,Parkside Linings Pty Ltd,Installer,NSW,B
+ACC-1071,Crestline Trade Supplies Pty Ltd,Distributor,SA,B
+ACC-1072,Westpoint Interiors Pty Ltd,Installer,VIC,C

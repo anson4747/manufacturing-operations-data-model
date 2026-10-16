@@ -1,0 +1,10 @@
+sku,description,category,profile,uom,launch_price
+PNL-51,Fire Rated Panel 51mm,Panel,51mm,m2,58.0
+PNL-64,Fire Rated Panel 64mm,Panel,64mm,m2,66.0
+PNL-78,Fire Rated Panel 78mm,Panel,78mm,m2,79.0
+TRK-C51,C Track 51mm,Track,51mm,lm,9.5
+TRK-C64,C Track 64mm,Track,64mm,lm,10.5
+TRK-C78,C Track 78mm,Track,78mm,lm,12.0
+ANG-STL,Steel Angle 50x50,Accessory,,lm,7.0
+SEAL-FR,Fire Rated Sealant 600ml,Accessory,,each,24.0
+FIX-PK,Fixing Pack (100),Accessory,,pack,32.0
