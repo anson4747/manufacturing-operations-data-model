@@ -88,57 +88,17 @@ The top project by revenue showed a 50% gross margin. One order line was keyed a
 
 ## Data model
 
-```mermaid
-erDiagram
-    dim_date ||--o{ fact_sales_line : "order date"
-    dim_date ||--o{ fact_sales_order : "order date"
-    dim_date ||--o{ fact_production : "production date"
-    dim_date ||--o{ fact_inventory_weekly : "week ending"
-    dim_date ||--o{ fact_purchase_order : "PO date"
-    dim_product ||--o{ fact_sales_line : sku
-    dim_product ||--o{ fact_production : sku
-    dim_product ||--o{ fact_inventory_weekly : sku
-    dim_project ||--o{ fact_sales_line : project_id
-    dim_project ||--o{ fact_sales_order : project_id
-    dim_customer ||--o{ fact_sales_line : account_id
-    dim_customer ||--o{ fact_sales_order : account_id
-    dim_site ||--o{ fact_sales_order : "dispatch site"
-    dim_site ||--o{ fact_production : site_code
-    dim_site ||--o{ fact_inventory_weekly : site_code
-    dim_supplier ||--o{ fact_purchase_order : supplier_id
-    dim_material ||--o{ fact_purchase_order : material_code
+Five fact tables share seven dimensions. Each row is a fact at its grain; each dot is a dimension it can be sliced by.
 
-    fact_sales_line {
-        int line_id PK
-        string order_id
-        decimal net_revenue
-        decimal gross_margin
-        bool is_price_exception
-    }
-    fact_sales_order {
-        string order_id PK
-        date promised_date
-        date requested_date
-        date dispatch_date "inactive relationship"
-        int on_time_promise
-        int request_met
-        string project_match_method
-    }
-    fact_inventory_weekly {
-        date week_ending
-        decimal qty_on_hand "snapshot, never summed"
-    }
-    fact_production {
-        date production_date
-        decimal m2_produced
-        decimal m2_scrapped
-    }
-    fact_purchase_order {
-        string po_number PK
-        int days_late
-        date received_date "inactive relationship"
-    }
-```
+| Fact table | Grain | Date | Product | Project | Customer | Site | Supplier | Material |
+|---|---|:-:|:-:|:-:|:-:|:-:|:-:|:-:|
+| `fact_sales_line` | one order line | ● | ● | ● | ● | ● | | |
+| `fact_sales_order` | one order | ●&nbsp;◐ | | ● | ● | ● | | |
+| `fact_production` | day × SKU | ● | ● | | | ● | | |
+| `fact_inventory_weekly` | week × site × SKU | ● | ● | | | ● | | |
+| `fact_purchase_order` | one purchase order | ●&nbsp;◐ | | | | | ● | ● |
+
+<sub>● active relationship &nbsp;·&nbsp; ◐ a second, inactive date relationship (dispatch date, PO received date)</sub>
 
 Modelling decisions worth noting:
 
